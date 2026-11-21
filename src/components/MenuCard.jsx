@@ -1,21 +1,21 @@
 import React, { useState } from 'react';
-import { Phone, Sparkles, ChevronRight, Utensils, Leaf } from 'lucide-react';
+import { Sparkles, ChevronRight, Leaf } from 'lucide-react';
 import { formatPrice } from '../data/menuData';
 
-export default function MenuCard({ item, onSelect, onCallItem }) {
+export default function MenuCard({ item, onSelect }) {
   const [imgError, setImgError] = useState(false);
   const displayName = item.name || item.title || 'Untitled Dish';
   const displayDesc = item.description || item.shortDescription || '';
   const hasImage = Boolean(item.image) && !imgError;
 
   return (
-    <article className="group bg-white rounded-3xl overflow-hidden border border-forest/10 hover:border-gold/50 shadow-luxury hover:shadow-luxury-lg transition-all duration-300 flex flex-col justify-between transform hover:-translate-y-1">
+    <article
+      onClick={() => onSelect(item)}
+      className="group bg-white rounded-3xl overflow-hidden border border-forest/10 hover:border-gold/50 shadow-luxury hover:shadow-luxury-lg transition-all duration-300 flex flex-col justify-between transform hover:-translate-y-1 cursor-pointer"
+    >
       {/* Food Photograph / Consistent Visual Container */}
       <div>
-        <div
-          className="relative aspect-[16/10] overflow-hidden bg-forest-dark cursor-pointer select-none"
-          onClick={() => onSelect(item)}
-        >
+        <div className="relative aspect-[16/10] overflow-hidden bg-forest-dark select-none">
           {hasImage ? (
             <img
               src={item.image}
@@ -84,10 +84,7 @@ export default function MenuCard({ item, onSelect, onCallItem }) {
               </span>
 
               {/* Food Name */}
-              <h3
-                onClick={() => onSelect(item)}
-                className="font-serif text-lg sm:text-xl font-bold text-forest hover:text-gold cursor-pointer transition-colors leading-snug"
-              >
+              <h3 className="font-serif text-lg sm:text-xl font-bold text-forest group-hover:text-gold transition-colors leading-snug">
                 {displayName}
               </h3>
             </div>
@@ -107,24 +104,14 @@ export default function MenuCard({ item, onSelect, onCallItem }) {
         </div>
       </div>
 
-      {/* Action Buttons */}
-      <div className="p-5 pt-0 bg-white">
-        <div className="flex items-center gap-2 pt-3 border-t border-forest/5">
-          <button
-            onClick={() => onSelect(item)}
-            className="flex-1 py-2.5 px-3 rounded-full bg-ivory hover:bg-sage/40 text-walnut font-medium text-xs tracking-wide transition-colors flex items-center justify-center gap-1"
-          >
-            <span>View Details</span>
-            <ChevronRight size={14} />
-          </button>
-
-          <button
-            onClick={() => onCallItem(item)}
-            className="flex-1 py-2.5 px-3 rounded-full bg-forest hover:bg-forest-light text-gold hover:text-ivory font-bold text-xs tracking-wider uppercase transition-all duration-200 shadow-sm flex items-center justify-center gap-1.5 group/btn"
-          >
-            <Phone size={13} className="text-gold group-hover/btn:rotate-12 transition-transform" />
-            <span>Call to Order</span>
-          </button>
+      {/* Clean Subtle Footer */}
+      <div className="px-5 sm:px-6 pb-5 pt-0 bg-white">
+        <div className="flex items-center justify-between pt-3 border-t border-forest/5 text-xs text-forest/70 group-hover:text-gold transition-colors font-medium">
+          <span className="flex items-center gap-1.5 text-[11px] uppercase tracking-wider text-walnut/60 group-hover:text-gold">
+            <Sparkles size={11} className="text-gold" />
+            <span>View Dish Details</span>
+          </span>
+          <ChevronRight size={14} className="transform group-hover:translate-x-1 transition-transform text-gold" />
         </div>
       </div>
     </article>

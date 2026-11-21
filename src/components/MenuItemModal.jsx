@@ -3,7 +3,7 @@ import { X, Phone, Clock, Sparkles, Check, Copy, Flame, Leaf } from 'lucide-reac
 import { resortInfo } from '../data/resortData';
 import { formatPrice } from '../data/menuData';
 
-export default function MenuItemModal({ item, onClose, onCallItem }) {
+export default function MenuItemModal({ item, onClose }) {
   const [copied, setCopied] = useState(false);
   const [imgError, setImgError] = useState(false);
 
@@ -135,10 +135,10 @@ export default function MenuItemModal({ item, onClose, onCallItem }) {
             <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-3 pb-3 border-b border-white/10">
               <div>
                 <span className="text-xs uppercase tracking-wider text-gold font-semibold block">
-                  To Order This Dish
+                  How to Order
                 </span>
                 <p className="text-sm text-ivory/80">
-                  Dial from room phone or call resort desk directly.
+                  Note down this dish and dial room service to place your order.
                 </p>
               </div>
               <button
@@ -164,7 +164,7 @@ export default function MenuItemModal({ item, onClose, onCallItem }) {
                 className="px-6 py-3 rounded-full bg-gold hover:bg-gold-light text-forest-dark font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-gold-glow transition-all"
               >
                 <Phone size={14} />
-                <span>Call to Order ({formatPrice(item.price)})</span>
+                <span>Call Room Service</span>
               </a>
             </div>
           </div>

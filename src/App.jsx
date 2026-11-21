@@ -71,11 +71,6 @@ export default function App() {
     setIsCallModalOpen(true);
   };
 
-  const handleCallItem = (item) => {
-    setModalCallingItem(item);
-    setIsCallModalOpen(true);
-  };
-
   const handleResetFilters = () => {
     setActiveCategory('all');
     setActiveDietary('all');
@@ -164,7 +159,6 @@ export default function App() {
                   key={item.id}
                   item={item}
                   onSelect={setSelectedItem}
-                  onCallItem={handleCallItem}
                 />
               ))}
             </div>
@@ -198,6 +192,61 @@ export default function App() {
             </div>
           )}
         </div>
+
+        {/* Dedicated Phone Order Station After Browsing Menu */}
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-8">
+          <div className="bg-gradient-to-br from-forest-dark via-forest to-forest-dark text-ivory rounded-3xl p-8 sm:p-12 border border-gold/30 shadow-2xl relative overflow-hidden">
+            {/* Ambient luxury lighting */}
+            <div className="absolute top-0 right-0 w-80 h-80 bg-gold/10 rounded-full filter blur-3xl pointer-events-none" />
+            <div className="absolute bottom-0 left-0 w-80 h-80 bg-sage/10 rounded-full filter blur-3xl pointer-events-none" />
+
+            <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
+              <div className="text-center lg:text-left space-y-3.5 max-w-2xl">
+                <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-forest-dark/90 border border-gold/40 text-gold text-xs font-semibold uppercase tracking-widest shadow-sm">
+                  <Phone size={13} className="text-gold" />
+                  <span>Order by Phone Call</span>
+                </div>
+
+                <h3 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-ivory leading-tight">
+                  Ready to Place Your Order?
+                </h3>
+
+                <p className="text-sm sm:text-base text-ivory/80 font-light leading-relaxed">
+                  Done browsing our menu? Simply note down your selected dishes and dial in-room dining. Our chefs will prepare everything fresh and deliver piping-hot meals straight to your cottage or table.
+                </p>
+
+                <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-6 pt-2 text-xs text-gold/90">
+                  <span className="flex items-center gap-1.5">
+                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
+                    From Room Phone: <strong className="text-ivory font-bold">{resortInfo.phone.inVillaExt}</strong>
+                  </span>
+                  <span className="text-ivory/30 hidden sm:inline">•</span>
+                  <span>Kitchen Line: <strong className="text-ivory font-semibold">{resortInfo.phone.display}</strong></span>
+                  <span className="text-ivory/30 hidden sm:inline">•</span>
+                  <span>Fresh Prep: ~20–30 Mins</span>
+                </div>
+              </div>
+
+              {/* Central Direct Phone Call Action */}
+              <div className="flex flex-col sm:flex-row lg:flex-col gap-3.5 w-full sm:w-auto shrink-0">
+                <a
+                  href={`tel:${resortInfo.phone.tel}`}
+                  className="px-8 py-4 rounded-full bg-gold hover:bg-gold-light text-forest-dark font-bold text-sm tracking-wider uppercase flex items-center justify-center gap-3 shadow-gold-glow hover:shadow-2xl transition-all duration-300 group"
+                >
+                  <Phone size={18} className="text-forest-dark group-hover:rotate-12 transition-transform duration-300" />
+                  <span>Call to Order Now</span>
+                </a>
+
+                <button
+                  onClick={handleOpenGeneralCall}
+                  className="px-7 py-3 rounded-full bg-forest-dark/80 hover:bg-forest text-ivory border border-gold/40 hover:border-gold font-semibold text-xs tracking-wider uppercase transition-all duration-200 text-center"
+                >
+                  Ordering Instructions & Help
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
       </section>
 
       {/* 5. Contact & Operating Hours Section (id="contact") */}
@@ -215,7 +264,6 @@ export default function App() {
       <MenuItemModal
         item={selectedItem}
         onClose={() => setSelectedItem(null)}
-        onCallItem={handleCallItem}
       />
 
       {/* Dedicated Call to Order Modal */}
