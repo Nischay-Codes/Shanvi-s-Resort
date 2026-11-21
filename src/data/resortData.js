@@ -2,16 +2,18 @@ export const resortInfo = {
   name: "Shanvi's Resort",
   city: "Jagdalpur",
   state: "Chhattisgarh",
-  tagline: "Luxury Nature Resort & Fine Dining",
+  tagline: "A Taste of Nature, A Touch of Luxury",
+  subtitle: "Fine Dining, Charcoal Tandoor & In-Room Gastronomy",
   description:
-    "Set amidst the lush tranquil greens of Jagdalpur, Bastar, Shanvi's Resort offers an authentic culinary experience with rich Tandoori kebabs, royal Indian curries, regional delicacies, sizzling Chinese starters, and garden beverages.",
+    "Nestled amidst the serene, lush forest landscapes of Jagdalpur, Shanvi's Resort offers an authentic culinary sanctuary where traditional Indian heritage curries, sizzling charcoal tandoor kebabs, wok-tossed appetizers, and handcrafted mocktails meet timeless luxury.",
+  heroImage: "https://images.unsplash.com/photo-1540555700478-4be289fbecef?q=80&w=2400&auto=format&fit=crop",
   phone: {
     display: "+91 94252 88888",
     tel: "+919425288888",
     inVillaExt: "Ext. 101 / 102",
     whatsapp: "+919425288888"
   },
-  location: "Jagdalpur, Bastar District, Chhattisgarh",
+  location: "Chitrakote Road, Jagdalpur, Bastar, Chhattisgarh",
   currency: "₹",
   serviceHours: [
     { label: "Morning Breakfast & Chai", time: "07:30 AM – 11:00 AM" },
@@ -21,16 +23,19 @@ export const resortInfo = {
   ],
   diningHighlights: [
     {
-      title: "Clay Oven Tandoor",
-      desc: "Slow-roasted marinated kebabs, crisp naan breads, and smoky tikkas fired in traditional clay tandoor."
+      title: "Charcoal Clay Tandoor",
+      desc: "Slow-roasted kebabs, smoky tikkas, and crisp golden garlic naans baked in traditional clay ovens.",
+      image: "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=800&auto=format&fit=crop"
     },
     {
-      title: "Desi Heritage Flavours",
-      desc: "Authentic Desi Chicken Curry, rich Mutton Rogan Josh, Dal Makhani, and fragrant Dum Biryanis."
+      title: "Royal Heritage Gravies",
+      desc: "Simmered for hours with hand-ground spices: Paneer Butter Masala, Mutton Rogan Josh & 1 KG Desi Chicken.",
+      image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
     },
     {
-      title: "In-Room & Garden Verandah",
-      desc: "Prompt delivery directly to your resort room, cottage, or open-air garden pavilion."
+      title: "Garden Verandah & In-Room Comfort",
+      desc: "Piping-hot meals delivered directly to your resort room, private cottage, or outdoor lawn table.",
+      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop"
     }
   ],
   orderingSteps: [

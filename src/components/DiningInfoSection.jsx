@@ -1,94 +1,165 @@
 import React from 'react';
-import { Clock, Leaf, Utensils, HeartHandshake, ShieldCheck, Sparkles, Phone } from 'lucide-react';
+import { Clock, MapPin, Phone, Sparkles, CheckCircle, HelpCircle } from 'lucide-react';
 import { resortInfo } from '../data/resortData';
 
 export default function DiningInfoSection({ onOpenCallModal }) {
   return (
-    <section id="ethos-section" className="py-20 bg-forest text-ivory relative overflow-hidden border-t border-gold/20">
-      {/* Decorative botanical backdrop */}
-      <div className="absolute top-0 right-0 w-80 h-80 bg-gold/5 rounded-full filter blur-3xl pointer-events-none" />
+    <section id="contact" className="py-20 sm:py-24 bg-forest text-ivory relative overflow-hidden border-t border-gold/20">
+      {/* Decorative ambient gradient backdrop */}
+      <div className="absolute top-0 right-0 w-96 h-96 bg-gold/5 rounded-full filter blur-3xl pointer-events-none" />
       <div className="absolute bottom-0 left-0 w-96 h-96 bg-sage/5 rounded-full filter blur-3xl pointer-events-none" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
         {/* Section Header */}
         <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">
           <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-forest-dark border border-gold/30 text-gold text-xs uppercase tracking-widest">
-            <Leaf size={13} />
-            <span>Shanvi's Resort Hospitality • Jagdalpur</span>
+            <MapPin size={13} className="text-gold" />
+            <span>Resort Concierge & Room Service</span>
           </div>
           <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-ivory">
-            Culinary Heritage & Pure Resort Comfort
+            Contact & Kitchen Operating Hours
           </h2>
           <p className="text-sm sm:text-base text-ivory/80 font-light leading-relaxed">
-            Surrounded by Bastar's lush woodlands, Shanvi's Resort offers delicious traditional Indian gravies, authentic tandoor skewers, wok-tossed starters, and refreshing drinks.
+            Our kitchen team is available throughout the day to prepare your orders fresh. For in-room dining, poolside orders, or garden service, please reach out to us directly.
           </p>
         </div>
 
-        {/* 3 Pillars Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-16">
-          <div className="bg-forest-dark/60 rounded-3xl p-8 border border-gold/20 shadow-luxury space-y-4 hover:border-gold/50 transition-all duration-300">
-            <div className="w-12 h-12 rounded-2xl bg-gold/20 text-gold flex items-center justify-center">
-              <Leaf size={24} />
-            </div>
-            <h3 className="font-serif text-xl font-bold text-ivory">Clay Oven Tandoor</h3>
-            <p className="text-sm text-ivory/80 leading-relaxed font-light">
-              Authentic clay tandoor fired with charcoal embers, serving smoky Tandoori Chicken, juicy Tangdi kebabs, Paneer Malai tikkas, and garlic butter naans.
-            </p>
-          </div>
-
-          <div className="bg-forest-dark/60 rounded-3xl p-8 border border-gold/20 shadow-luxury space-y-4 hover:border-gold/50 transition-all duration-300">
-            <div className="w-12 h-12 rounded-2xl bg-gold/20 text-gold flex items-center justify-center">
-              <Utensils size={24} />
-            </div>
-            <h3 className="font-serif text-xl font-bold text-ivory">Authentic Desi Specialities</h3>
-            <p className="text-sm text-ivory/80 leading-relaxed font-light">
-              Indulge in our famous 1 KG Desi Chicken Curry, Mutton Rogan Josh, Dal Makhani, Paneer Butter Masala, and fragrant handi Dum Biryanis.
-            </p>
-          </div>
-
-          <div className="bg-forest-dark/60 rounded-3xl p-8 border border-gold/20 shadow-luxury space-y-4 hover:border-gold/50 transition-all duration-300">
-            <div className="w-12 h-12 rounded-2xl bg-gold/20 text-gold flex items-center justify-center">
-              <HeartHandshake size={24} />
-            </div>
-            <h3 className="font-serif text-xl font-bold text-ivory">Prompt Room & Garden Service</h3>
-            <p className="text-sm text-ivory/80 leading-relaxed font-light">
-              Dining in your room or enjoying the fresh breeze in the resort gardens? Simply call us to have piping-hot food delivered to your table within 20–30 mins.
-            </p>
-          </div>
-        </div>
-
-        {/* Hours of Service Cards */}
-        <div className="bg-forest-dark rounded-3xl p-6 sm:p-10 border border-gold/25 shadow-2xl">
-          <div className="flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6 pb-8 border-b border-white/10">
+        {/* 2-Column Contact & Operating Hours Grid */}
+        <div className="grid grid-cols-1 lg:grid-cols-3 gap-8 mb-16">
+          {/* Card 1: Direct Calling & Extension Info */}
+          <div className="bg-forest-dark/80 rounded-3xl p-8 border border-gold/25 shadow-luxury flex flex-col justify-between space-y-6">
             <div>
-              <span className="text-xs uppercase tracking-widest text-gold font-semibold flex items-center gap-1.5">
-                <Clock size={13} /> Resort Dining Schedule
-              </span>
-              <h3 className="font-serif text-2xl sm:text-3xl font-bold text-ivory mt-1">
-                Kitchen Service & Operating Hours
+              <div className="w-12 h-12 rounded-2xl bg-gold/20 text-gold flex items-center justify-center mb-5">
+                <Phone size={22} />
+              </div>
+              <h3 className="font-serif text-xl sm:text-2xl font-bold text-ivory mb-2">
+                Direct Room Service
               </h3>
+              <p className="text-xs sm:text-sm text-ivory/70 leading-relaxed font-light mb-6">
+                Pick up your room phone or tap below to connect with our culinary desk instantly.
+              </p>
+
+              <div className="space-y-3 bg-forest/50 p-4 rounded-2xl border border-white/5">
+                <div>
+                  <span className="text-[11px] uppercase tracking-wider text-gold font-semibold block">
+                    In-Room Extension
+                  </span>
+                  <span className="font-serif text-lg font-bold text-ivory">
+                    {resortInfo.phone.inVillaExt}
+                  </span>
+                </div>
+                <div className="pt-2 border-t border-white/5">
+                  <span className="text-[11px] uppercase tracking-wider text-gold font-semibold block">
+                    Direct Mobile / WhatsApp
+                  </span>
+                  <a
+                    href={`tel:${resortInfo.phone.tel}`}
+                    className="font-serif text-lg font-bold text-ivory hover:text-gold transition-colors"
+                  >
+                    {resortInfo.phone.display}
+                  </a>
+                </div>
+              </div>
             </div>
+
             <button
               onClick={onOpenCallModal}
-              className="px-6 py-3 rounded-full bg-gold hover:bg-gold-light text-forest-dark font-bold text-xs uppercase tracking-wider flex items-center gap-2 shadow-gold-glow transition-all"
+              className="w-full py-3.5 rounded-full bg-gold hover:bg-gold-light text-forest-dark font-bold text-xs uppercase tracking-widest text-center shadow-gold-glow transition-all"
             >
-              <Phone size={14} />
-              <span>Call Room Service ({resortInfo.phone.inVillaExt})</span>
+              Call Culinary Desk Now
             </button>
           </div>
 
-          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 pt-8">
+          {/* Card 2: Location & Address */}
+          <div className="bg-forest-dark/80 rounded-3xl p-8 border border-gold/25 shadow-luxury flex flex-col justify-between space-y-6">
+            <div>
+              <div className="w-12 h-12 rounded-2xl bg-gold/20 text-gold flex items-center justify-center mb-5">
+                <MapPin size={22} />
+              </div>
+              <h3 className="font-serif text-xl sm:text-2xl font-bold text-ivory mb-2">
+                Resort Location
+              </h3>
+              <p className="text-xs sm:text-sm text-ivory/70 leading-relaxed font-light mb-6">
+                Located on the scenic Chitrakote route in Jagdalpur, amidst ancient sal trees and serene natural greenery.
+              </p>
+
+              <div className="space-y-2 bg-forest/50 p-4 rounded-2xl border border-white/5 text-xs text-ivory/80 leading-relaxed">
+                <p>
+                  <strong className="text-gold font-semibold block mb-0.5">Shanvi's Resort</strong>
+                  {resortInfo.location}
+                </p>
+                <p className="pt-2 border-t border-white/5 text-[11px] text-ivory/60">
+                  Landmark: On the way to Chitrakote & Tirathgarh Waterfalls
+                </p>
+              </div>
+            </div>
+
+            <div className="p-3.5 rounded-2xl bg-forest/30 border border-gold/15 text-center text-xs text-gold font-medium">
+              Open Daily for Guests & Private Events
+            </div>
+          </div>
+
+          {/* Card 3: Ordering Guide */}
+          <div className="bg-forest-dark/80 rounded-3xl p-8 border border-gold/25 shadow-luxury flex flex-col justify-between space-y-6">
+            <div>
+              <div className="w-12 h-12 rounded-2xl bg-gold/20 text-gold flex items-center justify-center mb-5">
+                <HelpCircle size={22} />
+              </div>
+              <h3 className="font-serif text-xl sm:text-2xl font-bold text-ivory mb-2">
+                How to Order
+              </h3>
+              <p className="text-xs sm:text-sm text-ivory/70 leading-relaxed font-light mb-4">
+                Fast & fresh delivery in 4 easy steps:
+              </p>
+
+              <div className="space-y-2.5">
+                {resortInfo.orderingSteps.map((step) => (
+                  <div key={step.step} className="flex items-start gap-2.5 text-xs">
+                    <span className="font-serif text-gold font-bold text-xs bg-forest w-5 h-5 rounded-full flex items-center justify-center shrink-0 border border-gold/30">
+                      {step.step}
+                    </span>
+                    <span className="text-ivory/85">
+                      <strong className="text-ivory font-semibold">{step.title}:</strong> {step.description}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+
+            <div className="pt-2 text-[11px] text-ivory/60 italic text-center">
+              Please inform of any nut, dairy, or spice allergies upon calling.
+            </div>
+          </div>
+        </div>
+
+        {/* Kitchen Service Schedule Strip */}
+        <div className="bg-forest-dark rounded-3xl p-6 sm:p-10 border border-gold/25 shadow-2xl">
+          <div className="flex flex-col sm:flex-row items-start sm:items-center justify-between gap-4 pb-6 border-b border-white/10">
+            <div>
+              <span className="text-xs uppercase tracking-widest text-gold font-semibold flex items-center gap-1.5">
+                <Clock size={13} /> Daily Dining Hours
+              </span>
+              <h3 className="font-serif text-xl sm:text-2xl font-bold text-ivory mt-1">
+                Kitchen Service Schedule
+              </h3>
+            </div>
+            <div className="text-xs text-ivory/70 bg-forest/60 px-4 py-1.5 rounded-full border border-forest-light/40">
+              Freshly Prepared • Est. Time: ~20-30 mins
+            </div>
+          </div>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4 sm:gap-6 pt-6">
             {resortInfo.serviceHours.map((slot) => (
               <div
                 key={slot.label}
-                className="p-5 rounded-2xl bg-forest/40 border border-forest-light/30 space-y-2 hover:bg-forest/60 transition-colors"
+                className="p-4 sm:p-5 rounded-2xl bg-forest/40 border border-forest-light/30 space-y-1.5 hover:bg-forest/60 transition-colors"
               >
                 <div className="flex items-center gap-2 text-gold">
                   <span className="w-2 h-2 rounded-full bg-gold" />
-                  <span className="text-xs font-semibold uppercase tracking-wider">{slot.label}</span>
+                  <span className="text-[11px] font-semibold uppercase tracking-wider">{slot.label}</span>
                 </div>
-                <p className="font-serif text-lg font-bold text-ivory">{slot.time}</p>
-                <p className="text-[11px] text-ivory/60">Delivered directly to verandah suites</p>
+                <p className="font-serif text-base sm:text-lg font-bold text-ivory">{slot.time}</p>
+                <p className="text-[11px] text-ivory/60">Delivered directly to room or garden</p>
               </div>
             ))}
           </div>
