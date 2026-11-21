@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Phone, Sparkles, ChevronRight, Utensils, Leaf } from 'lucide-react';
+import { formatPrice } from '../data/menuData';
 
 export default function MenuCard({ item, onSelect, onCallItem }) {
   const [imgError, setImgError] = useState(false);
@@ -93,7 +94,7 @@ export default function MenuCard({ item, onSelect, onCallItem }) {
 
             {/* Price in Indian Rupees */}
             <span className="text-lg sm:text-xl font-serif font-bold text-forest shrink-0">
-              ₹{item.price}
+              {formatPrice(item.price)}
             </span>
           </div>
 

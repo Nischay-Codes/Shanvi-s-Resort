@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { X, Phone, Clock, Sparkles, Check, Copy, Flame, Leaf } from 'lucide-react';
 import { resortInfo } from '../data/resortData';
+import { formatPrice } from '../data/menuData';
 
 export default function MenuItemModal({ item, onClose, onCallItem }) {
   const [copied, setCopied] = useState(false);
@@ -94,7 +95,7 @@ export default function MenuItemModal({ item, onClose, onCallItem }) {
             </div>
             <div className="text-right shrink-0">
               <span className="font-serif text-2xl sm:text-3xl font-bold text-gold">
-                ₹{item.price}
+                {formatPrice(item.price)}
               </span>
             </div>
           </div>
@@ -163,7 +164,7 @@ export default function MenuItemModal({ item, onClose, onCallItem }) {
                 className="px-6 py-3 rounded-full bg-gold hover:bg-gold-light text-forest-dark font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2 shadow-gold-glow transition-all"
               >
                 <Phone size={14} />
-                <span>Call to Order (₹{item.price})</span>
+                <span>Call to Order ({formatPrice(item.price)})</span>
               </a>
             </div>
           </div>

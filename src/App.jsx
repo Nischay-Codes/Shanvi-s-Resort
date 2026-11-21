@@ -140,7 +140,7 @@ export default function App() {
                 {currentCategoryInfo.name}
               </h3>
               <p className="text-xs sm:text-sm text-walnut/70 mt-1 font-light">
-                {currentCategoryInfo.tagline}
+                {currentCategoryInfo.description || currentCategoryInfo.tagline}
               </p>
             </div>
 
