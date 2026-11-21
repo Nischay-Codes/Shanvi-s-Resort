@@ -33,7 +33,7 @@ export default function CallToOrderModal({ isOpen, onClose, selectedItem }) {
           </h2>
           <p className="text-xs sm:text-sm text-ivory/80 mt-1.5">
             {selectedItem
-              ? `Ready to order "${selectedItem.title}"? Our chefs at Shanvi's Resort are at your service.`
+              ? `Ready to order "${selectedItem.name || selectedItem.title}"? Our chefs at Shanvi's Resort are at your service.`
               : 'Our culinary team at Shanvi\'s Resort is standing by to prepare your order fresh.'}
           </p>
         </div>

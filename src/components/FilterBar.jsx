@@ -27,7 +27,7 @@ export default function FilterBar({
               type="text"
               value={searchQuery}
               onChange={(e) => onSearchChange(e.target.value)}
-              placeholder="Search dishes, ingredients (truffle, wagyu, lobster...)"
+              placeholder="Search by food name (e.g. Dosa, Paneer, Biryani, Naan...)"
               className="w-full pl-10 pr-9 py-2.5 rounded-full bg-white border border-forest/15 text-walnut placeholder-walnut/40 text-sm focus:outline-none focus:ring-2 focus:ring-forest/20 focus:border-gold transition-all shadow-sm"
             />
             {searchQuery && (

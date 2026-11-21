@@ -45,31 +45,18 @@ export default function App() {
       if (activeDietary !== 'all') {
         if (activeDietary === 'Pure Veg' && !item.isVeg) return false;
         if (activeDietary === 'Non-Veg' && item.isVeg) return false;
-        if (activeDietary === "Chef's Signature" && !item.isChefSpecial) return false;
-        if (
-          activeDietary !== 'Pure Veg' &&
-          activeDietary !== 'Non-Veg' &&
-          activeDietary !== "Chef's Signature"
-        ) {
-          if (!item.tags?.includes(activeDietary)) return false;
+        if (activeDietary === "Chef's Signature" && !item.isSpecial && !item.isChefSpecial) {
+          return false;
         }
       }
 
-      // Search query filter
+      // Search query filter (search by food name and description)
       if (searchQuery.trim() !== '') {
         const query = searchQuery.toLowerCase().trim();
-        const matchesTitle = item.title.toLowerCase().includes(query);
-        const matchesDesc =
-          item.shortDescription?.toLowerCase().includes(query) ||
-          item.description?.toLowerCase().includes(query);
-        const matchesIng = item.ingredients?.some((ing) =>
-          ing.toLowerCase().includes(query)
-        );
-        const matchesTag = item.tags?.some((tag) =>
-          tag.toLowerCase().includes(query)
-        );
+        const itemName = (item.name || item.title || '').toLowerCase();
+        const itemDesc = (item.description || item.shortDescription || '').toLowerCase();
 
-        if (!matchesTitle && !matchesDesc && !matchesIng && !matchesTag) {
+        if (!itemName.includes(query) && !itemDesc.includes(query)) {
           return false;
         }
       }
