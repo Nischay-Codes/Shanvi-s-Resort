@@ -2822,7 +2822,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Penne pasta tossed in spicy Indian onion-tomato masala with herbs.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/indian-masala-pasta.jpg"
   },
   {
     "id": "dish-270",
@@ -2832,7 +2832,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Penne pasta in creamy b\u00e9chamel cheese sauce with sweet corn and bell peppers.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/white-sauce-pasta.jpg"
   },
   {
     "id": "dish-271",
@@ -2842,7 +2842,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Penne pasta tossed in tangy Italian marinara tomato basil sauce.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/red-sauce-pasta.jpg"
   },
   {
     "id": "dish-272",
@@ -2932,7 +2932,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Steaming hot classic 2-minute comfort noodles.",
-    "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/plain-maggi.jpg"
   },
   {
     "id": "dish-281",
@@ -2942,7 +2942,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Hot Maggi noodles topped with sweet corn and melted cheese.",
-    "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/cheese-corn-maggi.jpg"
   },
   {
     "id": "dish-282",
@@ -2952,7 +2952,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Maggi noodles tossed with saut\u00e9ed onions, tomatoes, and green peas.",
-    "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/indian-masala-maggi.jpg"
   },
   {
     "id": "dish-283",
@@ -2962,7 +2962,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Comforting Maggi noodles blended with creamy melted cheese.",
-    "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/cheese-maggi.jpg"
   },
   {
     "id": "dish-284",
@@ -2972,7 +2972,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Stir-fried dry Maggi noodles with crunchy vegetables and spices.",
-    "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/dry-fry-maggi.jpg"
   },
   {
     "id": "dish-285",
@@ -2982,7 +2982,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Maggi noodles topped with grilled spiced paneer tikka chunks.",
-    "image": "https://images.unsplash.com/photo-1612927601601-6638404737ce?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-tikka-maggi.jpg"
   },
   {
     "id": "dish-286",

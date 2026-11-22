@@ -37,14 +37,14 @@ export default function MenuItemModal({ item, onClose }) {
           <X size={20} />
         </button>
 
-        {/* Modal Image Header */}
-        <div className="relative aspect-[16/9] w-full bg-forest-dark overflow-hidden">
+        {/* Modal Image Header with Fixed Aspect Ratio */}
+        <div className="relative aspect-[16/10] sm:aspect-[16/9] max-h-80 w-full bg-forest-dark overflow-hidden">
           {hasImage ? (
             <img
               src={item.image}
               alt={displayName}
               onError={() => setImgError(true)}
-              className="w-full h-full object-cover"
+              className="w-full h-full object-cover object-center"
             />
           ) : (
             <div className="w-full h-full flex flex-col items-center justify-center bg-gradient-to-br from-forest-dark to-forest text-gold/80 p-8 text-center space-y-2">

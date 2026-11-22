@@ -15,14 +15,14 @@ export default function MenuCard({ item, onSelect }) {
     >
       {/* Food Photograph / Consistent Visual Container */}
       <div>
-        <div className="relative aspect-[16/10] overflow-hidden bg-forest-dark select-none">
+        <div className="relative w-full aspect-[16/10] overflow-hidden bg-forest-dark select-none">
           {hasImage ? (
             <img
               src={item.image}
               alt={displayName}
               loading="lazy"
               onError={() => setImgError(true)}
-              className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
+              className="w-full h-full object-cover object-center transform group-hover:scale-105 transition-transform duration-700 ease-out"
             />
           ) : (
             /* Graceful Placeholder when Image is Not Available */
