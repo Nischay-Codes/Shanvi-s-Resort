@@ -1082,7 +1082,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Diced tender chicken wok-tossed with capsicum, onion petals, and chilli soya.",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-chilli.jpg"
   },
   {
     "id": "dish-96",
@@ -1092,7 +1092,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Crispy fried chicken winglets tossed in fiery ginger-garlic Schezwan glaze.",
-    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-lollipop.jpg"
   },
   {
     "id": "dish-97",
@@ -1102,7 +1102,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Flaky flatbread wrapped with spiced chicken, sliced onions, and tangy sauce.",
-    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-roll.jpg"
   },
   {
     "id": "dish-98",
@@ -1112,7 +1112,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Golden egg-coated wrap stuffed with seasoned onions, veggies, and sauces.",
-    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/egg-roll.jpg"
   },
   {
     "id": "dish-99",
@@ -1122,7 +1122,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Juicy chicken pieces coated in spiced gram flour batter and deep fried golden.",
-    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-pakoda.jpg"
   },
   {
     "id": "dish-100",
@@ -1132,7 +1132,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Boneless chicken cubes cooked in dark soya, ginger, and garlic sauce.",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-manchurian.jpg"
   },
   {
     "id": "dish-101",
@@ -1142,7 +1142,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Pan-roasted chicken chunks spiced with crushed peppercorns and curry leaves.",
-    "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-roast.jpg"
   },
   {
     "id": "dish-102",
@@ -1152,7 +1152,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Shredded chicken fried extra crisp and glazed in sweet-spicy garlic sauce.",
-    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/crispy-chicken.jpg"
   },
   {
     "id": "dish-103",
@@ -1162,7 +1162,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Chicken skewers glazed in sweet and spicy Singapuri oriental reduction.",
-    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-singapuri-stick.jpg"
   },
   {
     "id": "dish-104",
@@ -1172,7 +1172,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Signature crispy shredded chicken tossed with red chillies, garlic, and cashew nuts.",
-    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-555.jpg"
   },
   {
     "id": "dish-105",
@@ -1182,7 +1182,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Tender fish fillets pan-roasted on tava with crushed spices and fresh lime.",
-    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/fish-roast.jpg"
   },
   {
     "id": "dish-106",
