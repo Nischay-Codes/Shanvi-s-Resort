@@ -1202,7 +1202,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spinach, green pea, and paneer patties pan-seared with cashew nut crowns.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-hara-bhara-kebab.jpg"
   },
   {
     "id": "dish-108",
@@ -1282,7 +1282,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Four tender chicken drumsticks marinated in rich cashew paste and tandoori spices.",
-    "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/tangdi-kebab.jpg"
   },
   {
     "id": "dish-116",
@@ -1302,7 +1302,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Boneless chicken morsels coated in fresh mint, coriander, and green chilli paste.",
-    "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-hariyali-tikka.jpg"
   },
   {
     "id": "dish-118",
@@ -1312,7 +1312,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Classic boneless chicken cubes marinated in spiced hung yogurt, charcoal grilled.",
-    "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-tikka.jpg"
   },
   {
     "id": "dish-119",
@@ -1322,7 +1322,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Mild, creamy boneless chicken marinated in cream, cheese, and white pepper.",
-    "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/afghani-chicken-tikka.jpg"
   },
   {
     "id": "dish-120",
@@ -1332,7 +1332,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Whole spring chicken marinated in deghi mirch and mustard oil, roasted over charcoal (Half \u20b9340 / Full \u20b9600).",
-    "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/tandoori-chicken.jpg"
   },
   {
     "id": "dish-121",
@@ -1342,7 +1342,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Chicken pieces infused with crushed whole coriander, cumin, garlic, and rustic spices.",
-    "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-banjara-tikka.jpg"
   },
   {
     "id": "dish-122",
