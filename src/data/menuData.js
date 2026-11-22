@@ -2202,7 +2202,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fluffy, perfectly steamed long-grain basmati rice.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/steam-rice.jpg"
   },
   {
     "id": "dish-208",
@@ -2212,7 +2212,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Basmati rice tempered in pure desi ghee with roasted cumin seeds.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/jeera-rice.jpg"
   },
   {
     "id": "dish-209",
@@ -2222,7 +2222,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Cumin rice saut\u00e9ed with caramelised onions and ripe tomatoes.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/onion-tomato-jeera-rice.jpg"
   },
   {
     "id": "dish-210",
@@ -2232,7 +2232,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spiced seasoned rice cooked with onions, tomatoes, and garam masala.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/masala-rice.jpg"
   },
   {
     "id": "dish-211",
@@ -2242,7 +2242,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Cooling South Indian rice tempered with mustard seeds, curry leaves, and yogurt.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/curd-rice.jpg"
   },
   {
     "id": "dish-212",
@@ -2252,7 +2252,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Zesty yellow rice tempered with mustard, roasted peanuts, and fresh lemon juice.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/lemon-rice.jpg"
   },
   {
     "id": "dish-213",
@@ -2262,7 +2262,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fragrant basmati rice cooked with fresh seasonal garden vegetables.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-pulao.jpg"
   },
   {
     "id": "dish-214",
@@ -2272,7 +2272,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Basmati rice simmered with sweet green peas and whole aromatic spices.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/matar-pulao.jpg"
   },
   {
     "id": "dish-215",
@@ -2282,7 +2282,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Basmati rice gently tossed with golden paneer cubes and mild spices.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-pulao.jpg"
   },
   {
     "id": "dish-216",
