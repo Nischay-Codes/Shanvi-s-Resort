@@ -1352,7 +1352,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Wok-tossed basmati rice with diced chicken, eggs, and spring onions.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-fried-rice.jpg"
   },
   {
     "id": "dish-123",
@@ -1362,7 +1362,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Basmati rice wok-fried with scrambled eggs, vegetables, and light soy.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/egg-fried-rice.jpg"
   },
   {
     "id": "dish-124",
@@ -1372,7 +1372,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Spicy wok-fried rice tossed with tender chicken and fiery Schezwan sauce.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-schezwan-fried-rice.jpg"
   },
   {
     "id": "dish-125",
@@ -1382,7 +1382,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Rice cooked with chicken and Singaporean sweet-curry style seasoning.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-singapuri-rice.jpg"
   },
   {
     "id": "dish-126",
@@ -1392,7 +1392,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Stir-fried noodles with chicken strips, shredded cabbage, and carrots.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-noodles.jpg"
   },
   {
     "id": "dish-127",
@@ -1402,7 +1402,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Classic Hakka style noodles tossed with tender chicken and crisp bell peppers.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-hakka-noodles.jpg"
   },
   {
     "id": "dish-128",
@@ -1412,7 +1412,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Wok-tossed noodles with scrambled eggs, scallions, and soy sauce.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/egg-noodles.jpg"
   },
   {
     "id": "dish-129",
@@ -1422,7 +1422,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Spicy stir-fried noodles tossed with chicken and hot Schezwan chilli pepper.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-schezwan-noodles.jpg"
   },
   {
     "id": "dish-130",
@@ -1432,7 +1432,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Oriental noodles tossed with tender chicken in exotic spicy Singapuri sauce.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-singapuri-noodles.jpg"
   },
   {
     "id": "dish-131",
