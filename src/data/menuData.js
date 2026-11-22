@@ -2992,7 +2992,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Spicy chickpea curry served with two puffed golden bhaturas, onions, and pickle.",
-    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chhole-bhature.jpg"
   },
   {
     "id": "dish-287",
@@ -3012,7 +3012,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy sliced onion fritters fried in spiced gram flour batter.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/onion-pakoda.jpg"
   },
   {
     "id": "dish-289",
@@ -3022,7 +3022,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Golden fried onion rings seasoned with chaat masala.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/onion-ring-pakoda.jpg"
   },
   {
     "id": "dish-290",
@@ -3042,7 +3042,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Thin sliced potatoes dipped in seasoned gram flour batter and golden fried.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/potato-pakoda.jpg"
   },
   {
     "id": "dish-292",
@@ -3062,7 +3062,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Boiled peanuts tossed with chopped onions, tomatoes, coriander, and lime.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/peanut-salad.jpg"
   },
   {
     "id": "dish-294",
@@ -3072,7 +3072,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crunchy roasted peanuts tossed with spices and chatpata masala.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/peanut-fry.jpg"
   },
   {
     "id": "dish-295",
@@ -3082,7 +3082,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Soft paneer cubes dipped in spiced gram flour batter and fried golden.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-pakoda.jpg"
   },
   {
     "id": "dish-296",
@@ -3092,7 +3092,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Whole cashew nuts fried in pure ghee and seasoned with black pepper and salt.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/kaju-fry.jpg"
   },
   {
     "id": "dish-297",
@@ -3102,7 +3102,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Two traditional khoya dumplings soaked in warm cardamom sugar syrup.",
-    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/hot-gulab-jamun.jpg"
   },
   {
     "id": "dish-298",
@@ -3112,7 +3112,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Warm melt-in-mouth gulab jamuns served with chilled vanilla bean ice cream.",
-    "image": "https://images.unsplash.com/photo-1606313564200-e75d5e30476c?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/hot-gulab-jamun-ice-cream.jpg"
   },
   {
     "id": "dish-299",
