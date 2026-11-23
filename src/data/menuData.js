@@ -2472,7 +2472,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh whole wheat flatbread puffed on iron tava.",
-    "image": "https://images.unsplash.com/photo-1680359873724-8062c6806704?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/tava-roti.jpg"
   },
   {
     "id": "dish-235",
@@ -2482,7 +2482,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tava puffed whole wheat roti brushed with fresh butter.",
-    "image": "https://images.unsplash.com/photo-1680359873724-8062c6806704?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/tava-butter-roti.jpg"
   },
   {
     "id": "dish-236",
@@ -2492,7 +2492,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Whole wheat flatbread freshly baked in traditional clay oven.",
-    "image": "https://images.unsplash.com/photo-1680359873724-8062c6806704?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/tandoori-roti.jpg"
   },
   {
     "id": "dish-237",
@@ -2502,7 +2502,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Clay oven baked whole wheat roti finished with melted butter.",
-    "image": "https://images.unsplash.com/photo-1680359873724-8062c6806704?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/tandoori-butter-roti.jpg"
   },
   {
     "id": "dish-238",
@@ -2512,7 +2512,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Soft, puffy refined flour leavened bread baked in tandoor.",
-    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/plain-naan.jpg"
   },
   {
     "id": "dish-239",
@@ -2522,7 +2522,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Clay oven baked naan generously brushed with pure butter.",
-    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/butter-naan.jpg"
   },
   {
     "id": "dish-240",
@@ -2532,7 +2532,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Tandoori naan topped with roasted minced garlic and coriander, brushed with butter.",
-    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/garlic-naan.jpg"
   },
   {
     "id": "dish-241",
@@ -2542,7 +2542,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Gram flour and whole wheat bread seasoned with carom seeds and fenugreek.",
-    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/missi-roti.jpg"
   },
   {
     "id": "dish-242",
@@ -2552,7 +2552,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Layered wheat bread baked on griddle with ghee.",
-    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/plain-paratha.jpg"
   },
   {
     "id": "dish-243",
@@ -2562,7 +2562,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Multi-layered spiral whole wheat bread brushed with butter.",
-    "image": "https://images.unsplash.com/photo-1754394483922-4d3a10cc6187?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/lachha-paratha.jpg"
   },
   {
     "id": "dish-244",
@@ -2572,7 +2572,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Flatbread stuffed with spiced mashed potatoes, grilled with butter.",
-    "image": "https://images.unsplash.com/photo-1754394483922-4d3a10cc6187?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/aloo-paratha.jpg"
   },
   {
     "id": "dish-245",
@@ -2582,7 +2582,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crisp tandoori kulcha stuffed with seasoned garlic and herbs.",
-    "image": "https://images.unsplash.com/photo-1754394483922-4d3a10cc6187?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/stuff-garlic-kulcha.jpg"
   },
   {
     "id": "dish-246",
@@ -2592,7 +2592,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Flaky kulcha stuffed with spiced potato and onion masala.",
-    "image": "https://images.unsplash.com/photo-1754394483922-4d3a10cc6187?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/stuff-masala-kulcha.jpg"
   },
   {
     "id": "dish-247",
@@ -2602,7 +2602,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Amritsari style kulcha stuffed with seasoned crumbled cottage cheese.",
-    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/stuff-paneer-kulcha.jpg"
   },
   {
     "id": "dish-248",
@@ -2612,7 +2612,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tandoori naan stuffed with molten mozzarella cheese.",
-    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/cheese-naan.jpg"
   },
   {
     "id": "dish-249",
@@ -2622,7 +2622,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Decadent naan stuffed with melted cheese and topped with roasted garlic.",
-    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/cheese-garlic-naan.jpg"
   },
   {
     "id": "dish-250",
