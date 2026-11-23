@@ -542,7 +542,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spicy vegetable broth with ginger, garlic, mushrooms, and crispy fried noodles.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-manchow-soup.jpg"
   },
   {
     "id": "dish-42",
@@ -552,7 +552,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tangy and peppery vegetable soup packed with finely shredded vegetables and tofu.",
-    "image": "https://images.unsplash.com/photo-1607528971899-2e89e6c0ec69?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-hot-and-sour-soup.jpg"
   },
   {
     "id": "dish-43",
@@ -562,7 +562,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Velvety broth simmered with tender American sweet corn kernels and diced vegetables.",
-    "image": "https://images.unsplash.com/photo-1608930532174-18ff53f01438?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-sweet-corn-soup.jpg"
   },
   {
     "id": "dish-44",
@@ -572,7 +572,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Light clarifying broth gently simmered with baby corn, mushrooms, and greens.",
-    "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-clear-soup.jpg"
   },
   {
     "id": "dish-45",
@@ -582,7 +582,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Smooth roasted ripe tomato soup finished with butter and golden croutons.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/cream-of-tomato-soup.jpg"
   },
   {
     "id": "dish-46",
@@ -592,7 +592,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Aromatic vegetable soup infused with fresh coriander leaves and tangy lemon juice.",
-    "image": "https://images.unsplash.com/photo-1607528971899-2e89e6c0ec69?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/lemon-coriander-soup.jpg"
   },
   {
     "id": "dish-47",
@@ -602,7 +602,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Rich and earthy soup made with saut\u00e9ed button mushrooms and fresh dairy cream.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/cream-of-mushroom-soup.jpg"
   },
   {
     "id": "dish-48",
@@ -612,7 +612,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Spicy garlic broth with shredded chicken, egg drops, and topped with crisp noodles.",
-    "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-manchow-soup.jpg"
   },
   {
     "id": "dish-49",
@@ -622,7 +622,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Fiery and sour chicken broth with shredded chicken, peppers, and egg swirl.",
-    "image": "https://images.unsplash.com/photo-1608930532174-18ff53f01438?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-hot-and-sour-soup.jpg"
   },
   {
     "id": "dish-50",
@@ -632,7 +632,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Silky sweet corn broth simmered with tender chicken shreds and egg drops.",
-    "image": "https://images.unsplash.com/photo-1608930532174-18ff53f01438?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-sweet-corn-soup.jpg"
   },
   {
     "id": "dish-51",
@@ -642,7 +642,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Aromatic chicken broth infused with roasted golden garlic cloves and herbs.",
-    "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-garlic-soup.jpg"
   },
   {
     "id": "dish-52",
@@ -652,7 +652,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Delicate clear chicken consomm\u00e9 with finely sliced chicken breast and scallions.",
-    "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-clear-soup.jpg"
   },
   {
     "id": "dish-53",
@@ -662,7 +662,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Traditional thick oriental chicken and egg soup scented with aromatic spices.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-lung-fung-soup.jpg"
   },
   {
     "id": "dish-54",
