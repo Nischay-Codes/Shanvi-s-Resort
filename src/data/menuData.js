@@ -2292,7 +2292,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Aromatic basmati rice cooked with biryani spices, saffron, and ghee.",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/biryani-rice.jpg"
   },
   {
     "id": "dish-217",
@@ -2302,7 +2302,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Layered basmati rice and vegetables slow cooked on dum with mint and saffron.",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-biryani.jpg"
   },
   {
     "id": "dish-218",
@@ -2312,7 +2312,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spicy Hyderabadi style vegetable biryani with green chillies and herbs.",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-hyderabadi-biryani.jpg"
   },
   {
     "id": "dish-219",
@@ -2322,7 +2322,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fragrant basmati rice layered with charcoal-grilled paneer tikkas.",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-tikka-biryani.jpg"
   },
   {
     "id": "dish-220",
@@ -2332,7 +2332,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Layered basmati rice dum cooked with spiced boiled eggs and fried onions.",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/egg-biryani.jpg"
   },
   {
     "id": "dish-221",
@@ -2342,7 +2342,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Flavourful biryani rice served with crispy spiced chicken pieces (Half \u20b9160 / Full \u20b9280).",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-fry-biryani.jpg"
   },
   {
     "id": "dish-222",
@@ -2352,7 +2352,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Authentic long-grain basmati rice and tender chicken slow-cooked on dum (Half \u20b9180 / Full \u20b9320).",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-dum-biryani.jpg"
   },
   {
     "id": "dish-223",
@@ -2362,7 +2362,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Spicy Hyderabadi layered chicken biryani with mint and saffron (Half \u20b9190 / Full \u20b9330).",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-hyderabadi-biryani.jpg"
   },
   {
     "id": "dish-224",
@@ -2372,7 +2372,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Succulent mutton pieces dum cooked with long basmati rice and saffron (Half \u20b9220 / Full \u20b9370).",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mutton-biryani.jpg"
   },
   {
     "id": "dish-225",
@@ -2382,7 +2382,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Coastal delicacy of plump spiced prawns dum-cooked with basmati rice.",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/prawn-biryani.jpg"
   },
   {
     "id": "dish-226",
