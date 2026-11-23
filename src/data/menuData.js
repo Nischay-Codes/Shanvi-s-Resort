@@ -292,7 +292,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Warm black tea infused with freshly squeezed lemon juice.",
-    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/black-lemon-tea.jpg"
   },
   {
     "id": "dish-17",
@@ -302,7 +302,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Antioxidant-rich delicate green tea leaves steeped fresh.",
-    "image": "https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/green-tea.jpg"
   },
   {
     "id": "dish-18",
@@ -312,7 +312,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Steaming hot freshly brewed milk coffee with rich aroma.",
-    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/coffee.jpg"
   },
   {
     "id": "dish-19",
@@ -322,7 +322,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Freshly brewed dark roasted coffee without milk.",
-    "image": "https://images.unsplash.com/photo-1514432324607-a09d9b4aefdd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/black-coffee.jpg"
   },
   {
     "id": "dish-20",
@@ -332,7 +332,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Chilled sweetened black tea served with lemon and ice cubes.",
-    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/ice-tea.jpg"
   },
   {
     "id": "dish-21",
@@ -352,7 +352,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Freshly squeezed lime with effervescent sparkling soda.",
-    "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/fresh-lime-soda.jpg"
   },
   {
     "id": "dish-23",
@@ -362,7 +362,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Chilled aerated carbonated beverage.",
-    "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/plain-cold-drink.jpg"
   },
   {
     "id": "dish-24",
@@ -372,7 +372,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Chilled cola spiced with roasted cumin, black salt, and lemon.",
-    "image": "https://images.unsplash.com/photo-1622483767028-3f66f32aef97?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/masala-cold-drink.jpg"
   },
   {
     "id": "dish-25",
@@ -382,7 +382,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Aromatic coffee blended with rich chocolate syrup and milk.",
-    "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/choco-coffee.jpg"
   },
   {
     "id": "dish-26",
