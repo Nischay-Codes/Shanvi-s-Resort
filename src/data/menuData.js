@@ -2392,7 +2392,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Simple, comforting boiled yellow lentils seasoned with salt and turmeric.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/plain-dal.jpg"
   },
   {
     "id": "dish-227",
@@ -2402,7 +2402,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Yellow toor dal cooked with onions, tomatoes, green chillies, and butter.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/dal-fry.jpg"
   },
   {
     "id": "dish-228",
@@ -2412,7 +2412,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Yellow lentils tempered in smoking ghee with cumin, garlic, and dry red chillies.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/dal-punjabi-tadka.jpg"
   },
   {
     "id": "dish-229",
@@ -2422,7 +2422,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Slow-simmered whole black lentils cooked overnight with butter and fresh cream.",
-    "image": "https://images.unsplash.com/photo-1788601988466-9f361c34c6cb?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/dal-makhani.jpg"
   },
   {
     "id": "dish-230",
@@ -2432,7 +2432,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Lentils slow cooked in an earthen pot with roasted whole spices.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/dal-handi.jpg"
   },
   {
     "id": "dish-231",
@@ -2442,7 +2442,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spicy lentil preparation cooked with fiery Kolhapuri red chilli paste.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/dal-kolhapuri.jpg"
   },
   {
     "id": "dish-232",
@@ -2452,7 +2452,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Wholesome, soothing rice and moong dal preparation with mild ghee tempering.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/dal-khichdi.jpg"
   },
   {
     "id": "dish-233",
