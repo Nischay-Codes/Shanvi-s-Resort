@@ -392,7 +392,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Thick traditional curd churned sweet with cardamom and malai.",
-    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/sweet-lassi.jpg"
   },
   {
     "id": "dish-27",
@@ -402,7 +402,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Cooling spiced chaas tempered with roasted cumin, coriander, and black salt.",
-    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/butter-milk.jpg"
   },
   {
     "id": "dish-28",
@@ -412,7 +412,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Rich, creamy warm cocoa beverage with velvety froth.",
-    "image": "https://images.unsplash.com/photo-1542990253-0d0f5be5f0ed?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/hot-chocolate.jpg"
   },
   {
     "id": "dish-29",
@@ -422,7 +422,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Thick churned yogurt blended with sweet Alphonso mango pulp.",
-    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mango-lassi.jpg"
   },
   {
     "id": "dish-30",
@@ -432,7 +432,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Creamy yogurt drink flavored with ripe sweet strawberry extract.",
-    "image": "https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/strawberry-lassi.jpg"
   },
   {
     "id": "dish-31",
@@ -442,7 +442,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Wholesome sweet yogurt lassi blended with fresh ripe bananas.",
-    "image": "https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/banana-lassi.jpg"
   },
   {
     "id": "dish-32",
@@ -452,7 +452,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Chilled whipped coffee with milk, sugar, and chocolate lining.",
-    "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/cold-coffee.jpg"
   },
   {
     "id": "dish-33",
@@ -462,7 +462,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Velvety vanilla shake blended with dark cocoa Oreo biscuits.",
-    "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/oreo-shake.jpg"
   },
   {
     "id": "dish-34",
@@ -472,7 +472,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Thick chocolate shake loaded with crushed crunchy KitKat wafer bars.",
-    "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/kitkat-shake.jpg"
   },
   {
     "id": "dish-35",
@@ -482,7 +482,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Classic thick milk shake made with rich Belgian cocoa sauce.",
-    "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chocolate-shake.jpg"
   },
   {
     "id": "dish-36",
@@ -492,7 +492,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Creamy pink shake prepared with real sweet strawberry reduction.",
-    "image": "https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/strawberry-shake.jpg"
   },
   {
     "id": "dish-37",
@@ -502,7 +502,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Healthy and thick shake prepared with sweet ripe bananas and milk.",
-    "image": "https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/banana-shake.jpg"
   },
   {
     "id": "dish-38",
@@ -512,7 +512,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Rich tropical Alphonso mango shake served chilled.",
-    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mango-shake.jpg"
   },
   {
     "id": "dish-39",
@@ -522,7 +522,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Refreshing sweet and tangy tropical pineapple milkshake.",
-    "image": "https://images.unsplash.com/photo-1546171753-97d7676e4602?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/pineapple-shake.jpg"
   },
   {
     "id": "dish-40",
@@ -532,7 +532,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Rich blended espresso coffee crowned with a generous scoop of vanilla ice cream.",
-    "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/cold-coffee-with-ice-cream.jpg"
   },
   {
     "id": "dish-41",
