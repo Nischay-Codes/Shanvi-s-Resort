@@ -672,7 +672,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Chilled whipped yogurt mixed with crispy chickpea pearls and roasted cumin.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/boondi-raita.jpg"
   },
   {
     "id": "dish-55",
@@ -682,7 +682,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Creamy seasoned curd with finely chopped red onions and green chillies.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/onion-raita.jpg"
   },
   {
     "id": "dish-56",
@@ -692,7 +692,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Cooling yogurt mixed with diced cucumber, tomatoes, and chaat spices.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-raita.jpg"
   },
   {
     "id": "dish-57",
@@ -702,7 +702,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh slices of garden cucumbers, carrots, onions, tomatoes, and lemon wedges.",
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/green-salad.jpg"
   },
   {
     "id": "dish-58",
@@ -712,7 +712,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crisp red onion rings seasoned with fresh lime juice, green chillies, and chaat masala.",
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/onion-salad.jpg"
   },
   {
     "id": "dish-59",
@@ -722,7 +722,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Thin spiral sliced onion lachhas tossed with deghi mirch and lemon.",
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/lachcha-salad.jpg"
   },
   {
     "id": "dish-60",
@@ -732,7 +732,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Finely diced cucumbers, onions, and ripe tomatoes tossed with tangy lime dressing.",
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/kachumber-salad.jpg"
   },
   {
     "id": "dish-61",
@@ -742,7 +742,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Large sharing platter of assorted garden fresh vegetables.",
-    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/family-green-salad.jpg"
   },
   {
     "id": "dish-62",
@@ -752,7 +752,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy roasted lentil wafer.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/dry-papad.jpg"
   },
   {
     "id": "dish-63",
@@ -762,7 +762,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Deep golden fried crispy lentil papad.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/fry-papad.jpg"
   },
   {
     "id": "dish-64",
@@ -772,7 +772,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy fried papad topped with spicy diced onions, tomatoes, and fresh coriander.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/masala-papad.jpg"
   },
   {
     "id": "dish-65",
