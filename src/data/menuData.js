@@ -782,7 +782,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tender paneer cubes wok-tossed with green chillies, capsicum, and soya sauce.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-chilli-dry.jpg"
   },
   {
     "id": "dish-66",
@@ -792,7 +792,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Batter-fried cottage cheese cooked in spicy Indo-Chinese dark chilli soya gravy.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-chilli-gravy.jpg"
   },
   {
     "id": "dish-67",
@@ -802,7 +802,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy paneer cubes seasoned with freshly crushed black peppercorns and spring onions.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-salt-and-pepper.jpg"
   },
   {
     "id": "dish-68",
@@ -812,7 +812,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "South Indian style spicy fried paneer tossed with curry leaves, yogurt, and red chillies.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-65.jpg"
   },
   {
     "id": "dish-69",
@@ -832,7 +832,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Skewered paneer strips glazed with sweet-spicy Singapuri sauce and sesame seeds.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-singapuri-stick.jpg"
   },
   {
     "id": "dish-71",
@@ -842,7 +842,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Crispy paneer fingers tossed with cashews, fiery red dragon sauce, and scallions.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/dragon-paneer.jpg"
   },
   {
     "id": "dish-72",
@@ -862,7 +862,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Indulgent combination of paneer chunks baked with melted cheese and herbs.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-cheese-combo.jpg"
   },
   {
     "id": "dish-74",
@@ -882,7 +882,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Extra-crunchy batter fried paneer tossed in sweet-sour spicy glaze.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-crispy.jpg"
   },
   {
     "id": "dish-76",
