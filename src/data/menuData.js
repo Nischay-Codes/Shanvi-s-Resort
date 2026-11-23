@@ -1442,7 +1442,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Cottage cheese simmered in spicy onion-tomato gravy with Indian herbs.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-masala.jpg"
   },
   {
     "id": "dish-132",
@@ -1452,7 +1452,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Cottage cheese simmered in a velvety, mildly sweet tomato, butter, and cashew gravy.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-butter-masala.jpg"
   },
   {
     "id": "dish-133",
@@ -1472,7 +1472,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Mild, royal white gravy curry prepared with yogurt, cashew nuts, and paneer.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-korma.jpg"
   },
   {
     "id": "dish-135",
@@ -1482,7 +1482,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Traditional handi cooked paneer with thick onion-tomato gravy and whole spices.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-handi.jpg"
   },
   {
     "id": "dish-136",
@@ -1492,7 +1492,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Paneer cooked with bell peppers, onion petals, and coarse crushed kadhai masala.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-kadhai.jpg"
   },
   {
     "id": "dish-137",
@@ -1502,7 +1502,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crumbled fresh cottage cheese saut\u00e9ed with onions, tomatoes, and green chillies.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-bhurji.jpg"
   },
   {
     "id": "dish-138",
@@ -1512,7 +1512,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh spinach puree with garlic and cumin, simmered with soft paneer cubes.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/palak-paneer.jpg"
   },
   {
     "id": "dish-139",
@@ -1532,7 +1532,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Luscious gravy prepared with grated cottage cheese, cream, and paneer cubes.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-lababdar.jpg"
   },
   {
     "id": "dish-141",
@@ -1552,7 +1552,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Cottage cheese and button mushrooms simmered together in royal spiced masala.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-mushroom.jpg"
   },
   {
     "id": "dish-143",
@@ -1572,7 +1572,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fiery spicy paneer curry cooked with roasted coconut and dry red chillies.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-kolhapuri.jpg"
   },
   {
     "id": "dish-145",
@@ -1602,7 +1602,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Stuffed paneer sandwiches cooked in velvety rich cashew and cream gravy.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-pasanda.jpg"
   },
   {
     "id": "dish-148",
@@ -1862,7 +1862,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Golden fried baby potatoes slow cooked on dum in rich spiced gravy.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/panjabi-dum-aloo.jpg"
   },
   {
     "id": "dish-174",
@@ -1872,7 +1872,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fried potatoes simmered in Kashmiri red chilli, fennel, and curd gravy.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/kashmiri-dum-aloo.jpg"
   },
   {
     "id": "dish-175",
@@ -1882,7 +1882,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tender chickpeas simmered in authentic Amritsari spices and dried pomegranate seeds.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chana-masala.jpg"
   },
   {
     "id": "dish-176",
@@ -1892,7 +1892,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fire-roasted mashed eggplants cooked with onions, tomatoes, and garlic.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/baigan-bharta.jpg"
   },
   {
     "id": "dish-177",
