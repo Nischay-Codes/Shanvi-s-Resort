@@ -1632,7 +1632,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Button mushrooms cooked in spiced onion-tomato gravy with fresh coriander.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mushroom-masala.jpg"
   },
   {
     "id": "dish-151",
@@ -1682,7 +1682,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tender okra stir fried with onions, amchur, and fragrant cumin.",
-    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/bhindi-masala.jpg"
   },
   {
     "id": "dish-156",
@@ -1702,7 +1702,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Sliced ladyfingers cooked with crunchy onions in semi-dry gravy.",
-    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/bhindi-do-pyaza.jpg"
   },
   {
     "id": "dish-158",
@@ -1712,7 +1712,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Okra cooked in an iron wok with crushed coriander seeds and bell peppers.",
-    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/bhindi-kadahi.jpg"
   },
   {
     "id": "dish-159",
@@ -1722,7 +1722,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Assorted garden vegetables cooked dry or with rich gravy (Dry \u20b9180 / Gravy \u20b9200).",
-    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mix-veg.jpg"
   },
   {
     "id": "dish-160",
@@ -1732,7 +1732,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Diced potatoes tossed in pure ghee with roasted cumin seeds and green chillies.",
-    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/aloo-jeera.jpg"
   },
   {
     "id": "dish-161",
@@ -1742,7 +1742,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Classic homestyle potatoes and cauliflower florets with turmeric and ginger.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/aloo-gobhi.jpg"
   },
   {
     "id": "dish-162",
@@ -1752,7 +1752,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Assorted fresh vegetables slow-cooked in earthen handi pot with spices.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-handi.jpg"
   },
   {
     "id": "dish-163",
@@ -1772,7 +1772,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Mixed vegetables simmered in spicy fiery red Kolhapuri gravy.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-kolhapuri.jpg"
   },
   {
     "id": "dish-165",
@@ -1782,7 +1782,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Seasonal vegetables quickly pan-fried on iron tava with dry spices.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-tava.jpg"
   },
   {
     "id": "dish-166",
@@ -1812,7 +1812,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Deep fried vegetable dumplings simmered in rich creamy onion-cashew gravy.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-kofta.jpg"
   },
   {
     "id": "dish-169",
@@ -1822,7 +1822,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spicy Mumbai style street-flavored vegetable curry.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mumbai-veg-masala.jpg"
   },
   {
     "id": "dish-170",
@@ -1832,7 +1832,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh fenugreek leaves and green peas simmered in rich creamy malai gravy.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/methi-matar.jpg"
   },
   {
     "id": "dish-171",
@@ -1842,7 +1842,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Golden roasted cashew nuts simmered in rich spiced onion-cashew gravy.",
-    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/kaju-masala.jpg"
   },
   {
     "id": "dish-172",
@@ -1852,7 +1852,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Whole roasted cashews cooked in mild, fragrant creamy curry.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/kaju-curry.jpg"
   },
   {
     "id": "dish-173",
