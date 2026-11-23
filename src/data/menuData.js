@@ -151,7 +151,7 @@ export const menuItems = [
     "price": "130",
     "isVeg": true,
     "isSpecial": false,
-    "description": "Vibrant blue curaçao syrup blended with citrus fizz and garden mint.",
+    "description": "Vibrant blue cura\u00e7ao syrup blended with citrus fizz and garden mint.",
     "image": "/dishes/blue-blossom-mocktail.jpg"
   },
   {
@@ -211,7 +211,7 @@ export const menuItems = [
     "price": "90",
     "isVeg": true,
     "isSpecial": false,
-    "description": "Blue curaçao syrup muddled with fresh mint sprigs, lime wedges, and soda.",
+    "description": "Blue cura\u00e7ao syrup muddled with fresh mint sprigs, lime wedges, and soda.",
     "image": "/dishes/blue-lagoon-mojito.jpg"
   },
   {
@@ -292,7 +292,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Warm black tea infused with freshly squeezed lemon juice.",
-    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-17",
@@ -302,7 +302,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Antioxidant-rich delicate green tea leaves steeped fresh.",
-    "image": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1627435601361-ec25f5b1d0e5?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-18",
@@ -332,7 +332,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Chilled sweetened black tea served with lemon and ice cubes.",
-    "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1556679343-c7306c1976bc?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-21",
@@ -382,7 +382,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Aromatic coffee blended with rich chocolate syrup and milk.",
-    "image": "https://images.unsplash.com/photo-1517701604599-bb29b565090c?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-26",
@@ -432,7 +432,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Creamy yogurt drink flavored with ripe sweet strawberry extract.",
-    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-31",
@@ -442,7 +442,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Wholesome sweet yogurt lassi blended with fresh ripe bananas.",
-    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-32",
@@ -492,7 +492,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Creamy pink shake prepared with real sweet strawberry reduction.",
-    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-37",
@@ -502,7 +502,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Healthy and thick shake prepared with sweet ripe bananas and milk.",
-    "image": "https://images.unsplash.com/photo-1546173159-315724a31696?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1553787499-6f9133860278?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-38",
@@ -552,7 +552,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tangy and peppery vegetable soup packed with finely shredded vegetables and tofu.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1607528971899-2e89e6c0ec69?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-43",
@@ -562,7 +562,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Velvety broth simmered with tender American sweet corn kernels and diced vegetables.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1608930532174-18ff53f01438?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-44",
@@ -572,7 +572,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Light clarifying broth gently simmered with baby corn, mushrooms, and greens.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-45",
@@ -592,7 +592,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Aromatic vegetable soup infused with fresh coriander leaves and tangy lemon juice.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1607528971899-2e89e6c0ec69?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-47",
@@ -612,7 +612,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Spicy garlic broth with shredded chicken, egg drops, and topped with crisp noodles.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-49",
@@ -622,7 +622,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Fiery and sour chicken broth with shredded chicken, peppers, and egg swirl.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1608930532174-18ff53f01438?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-50",
@@ -632,7 +632,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Silky sweet corn broth simmered with tender chicken shreds and egg drops.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1608930532174-18ff53f01438?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-51",
@@ -642,7 +642,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Aromatic chicken broth infused with roasted golden garlic cloves and herbs.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-52",
@@ -652,7 +652,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Delicate clear chicken consomm\u00e9 with finely sliced chicken breast and scallions.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1603105037880-880cd4edfb0d?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-53",
@@ -702,7 +702,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh slices of garden cucumbers, carrots, onions, tomatoes, and lemon wedges.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-58",
@@ -712,7 +712,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crisp red onion rings seasoned with fresh lime juice, green chillies, and chaat masala.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-59",
@@ -722,7 +722,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Thin spiral sliced onion lachhas tossed with deghi mirch and lemon.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-60",
@@ -732,7 +732,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Finely diced cucumbers, onions, and ripe tomatoes tossed with tangy lime dressing.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-61",
@@ -742,7 +742,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Large sharing platter of assorted garden fresh vegetables.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-62",
@@ -892,7 +892,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Golden button mushrooms wok-tossed with capsicum, onions, and chilli soya.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-77",
@@ -902,7 +902,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy fried mushrooms seasoned with crushed black pepper and green scallions.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-78",
@@ -912,7 +912,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Plump mushrooms glazed with rich aromatic garlic sauce.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-79",
@@ -922,7 +922,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spicy crisp-fried mushrooms tossed with southern spices and curry leaves.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-80",
@@ -932,7 +932,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Button mushrooms tossed in dark ginger-garlic Manchurian gravy.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-81",
@@ -942,7 +942,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Batter-fried sweet corn tossed with green chillies, onions, and chaat spices.",
-    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-82",
@@ -952,7 +952,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Sweet corn kernels stir fried with diced bell peppers and spicy chilli glaze.",
-    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-83",
@@ -962,7 +962,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Golden fried corn with coarse black pepper and garlic seasoning.",
-    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-84",
@@ -972,7 +972,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Warm sweet corn mixed with fresh butter, lemon juice, and tangy chaat masala.",
-    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-85",
@@ -982,7 +982,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tender boiled chickpeas tossed with onions, tomatoes, green chillies, and lemon.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-86",
@@ -992,7 +992,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy pan-roasted spiced chickpeas seasoned with desi spices.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-87",
@@ -1002,7 +1002,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crisp fried chickpeas wok-tossed with capsicum, garlic, and chilli sauce.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-88",
@@ -1032,7 +1032,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Assorted crispy batter-fried vegetables tossed in spicy red Chinese sauce.",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1566843972140-7a8d85d7c2de?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-91",
@@ -1042,7 +1042,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crisp minced vegetable dumplings tossed with ginger, garlic, and dark soy.",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1566843972140-7a8d85d7c2de?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-92",
@@ -1052,7 +1052,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Vegetable dumplings simmered in savory dark soy-garlic sauce.",
-    "image": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1566843972140-7a8d85d7c2de?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-93",
@@ -1062,7 +1062,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tender crisp baby corn pieces tossed with bell peppers and chilli sauce.",
-    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-94",
@@ -1072,7 +1072,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Golden fried baby corn fingers tossed in hot garlic seasoning.",
-    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-95",
@@ -1192,7 +1192,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Extra crispy textured vegetable kebabs with spiced herb filling.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-107",
@@ -1212,7 +1212,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Juicy button mushrooms marinated in aromatic tandoori masala, charcoal roasted.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-109",
@@ -1222,7 +1222,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Finely minced vegetables seasoned with herbs and grilled on skewers.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-110",
@@ -1272,7 +1272,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Melt-in-mouth cottage cheese coated in royal cashew cream and mild spices.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-115",
@@ -1462,7 +1462,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh cottage cheese and sweet green peas cooked in spiced onion gravy.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-134",
@@ -1512,7 +1512,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh spinach puree with garlic and cumin, simmered with soft paneer cubes.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-139",
@@ -1622,7 +1622,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh mushrooms and tender baby corn cooked in fragrant spiced curry.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-150",
@@ -1632,7 +1632,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Button mushrooms cooked in spiced onion-tomato gravy with fresh coriander.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-151",
@@ -1642,7 +1642,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh mushrooms cooked with bell peppers, onions, and coarse kadhai masala.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-152",
@@ -1652,7 +1652,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Earthen pot cooked mushrooms simmered with aromatic roasted spices.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-153",
@@ -1662,7 +1662,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Mushrooms cooked with double quantity of caramelized onions and spices.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-154",
@@ -1672,7 +1672,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spicy mushroom curry prepared with roasted red chilli Kolhapuri masala.",
-    "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-155",
@@ -1682,7 +1682,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tender okra stir fried with onions, amchur, and fragrant cumin.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-156",
@@ -1692,7 +1692,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy fried okra saut\u00e9ed with browned onions and chatpata spices.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-157",
@@ -1702,7 +1702,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Sliced ladyfingers cooked with crunchy onions in semi-dry gravy.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-158",
@@ -1712,7 +1712,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Okra cooked in an iron wok with crushed coriander seeds and bell peppers.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-159",
@@ -1722,7 +1722,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Assorted garden vegetables cooked dry or with rich gravy (Dry \u20b9180 / Gravy \u20b9200).",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-160",
@@ -1732,7 +1732,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Diced potatoes tossed in pure ghee with roasted cumin seeds and green chillies.",
-    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-161",
@@ -1742,7 +1742,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Classic homestyle potatoes and cauliflower florets with turmeric and ginger.",
-    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-162",
@@ -1812,7 +1812,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Deep fried vegetable dumplings simmered in rich creamy onion-cashew gravy.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-169",
@@ -1832,7 +1832,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh fenugreek leaves and green peas simmered in rich creamy malai gravy.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-171",
@@ -1842,7 +1842,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Golden roasted cashew nuts simmered in rich spiced onion-cashew gravy.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-172",
@@ -1852,7 +1852,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Whole roasted cashews cooked in mild, fragrant creamy curry.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-173",
@@ -1862,7 +1862,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Golden fried baby potatoes slow cooked on dum in rich spiced gravy.",
-    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-174",
@@ -1872,7 +1872,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fried potatoes simmered in Kashmiri red chilli, fennel, and curd gravy.",
-    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-175",
@@ -1882,7 +1882,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tender chickpeas simmered in authentic Amritsari spices and dried pomegranate seeds.",
-    "image": "https://images.unsplash.com/photo-1540420773420-3366772f4999?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-176",
@@ -1892,7 +1892,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fire-roasted mashed eggplants cooked with onions, tomatoes, and garlic.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-177",
@@ -1902,7 +1902,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Two perfectly hard-boiled farm eggs served with black pepper and salt.",
-    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-178",
@@ -1912,7 +1912,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Double egg fluffy omelette folded with chopped onions and green herbs.",
-    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-179",
@@ -1922,7 +1922,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Pan-fried eggs saut\u00e9ed with caramelised onions and spices.",
-    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-180",
@@ -1932,7 +1932,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Scrambled eggs tossed with onions, tomatoes, green chillies, and coriander.",
-    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-181",
@@ -1942,7 +1942,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Spicy scrambled eggs simmered in rich onion-tomato curry.",
-    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-182",
@@ -1952,7 +1952,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Pan-fried boiled eggs served in a hearty spiced gravy with chopped coriander.",
-    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-183",
@@ -1962,7 +1962,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Boiled eggs cooked in a thick spicy onion-tomato gravy with roasted spices.",
-    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-184",
@@ -1972,7 +1972,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Kolkata style yellow dal cooked with scrambled eggs and double tadka.",
-    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-185",
@@ -1982,7 +1982,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Authentic local country chicken slow-cooked with rustic whole spices in an earthen pot (Serves 4-5).",
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-186",
@@ -1992,7 +1992,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Comforting homestyle chicken curry cooked with onions, ginger, and garlic.",
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-187",
@@ -2002,7 +2002,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Tender chicken pieces simmered in traditional spiced gravy.",
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-188",
@@ -2012,7 +2012,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Semi-dry chicken preparation with double caramelised onions and green chillies.",
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-189",
@@ -2022,7 +2022,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Flavourful chicken in spicy green herb, mint, and spinach gravy.",
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-190",
@@ -2032,7 +2032,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Fiery Maharashtrian style chicken curry cooked with roasted red chillies.",
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-191",
@@ -2042,7 +2042,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Chicken pieces cooked with coarse ground spices, onions, and tomatoes.",
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-192",
@@ -2052,7 +2052,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Tender chicken cooked with crunchy onion petals in aromatic curry.",
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-193",
@@ -2062,7 +2062,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Chicken slow-simmered in an earthen handi pot with roasted whole spices.",
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-194",
@@ -2072,7 +2072,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Royal chicken curry enriched with egg ribbon, cashew paste, and saffron.",
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-195",
@@ -2082,7 +2082,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Creamy North Indian preparation with chicken wrapped in seasoned omelette.",
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1545247181-516773ca83e3?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-196",
@@ -2092,7 +2092,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Boneless tandoori chicken simmered in silky tomato butter makhani gravy.",
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1545247181-516773ca83e3?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-197",
@@ -2102,7 +2102,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Plump prawns cooked in a spicy onion-tomato gravy with mustard and curry leaves.",
-    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1545247181-516773ca83e3?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-198",
@@ -2112,7 +2112,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Succulent prawns simmered in fragrant coastal coconut curry.",
-    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1545247181-516773ca83e3?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-199",
@@ -2122,7 +2122,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Fish steaks cooked in homestyle spiced onion-tomato gravy with fresh herbs.",
-    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1545247181-516773ca83e3?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-200",
@@ -2132,7 +2132,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Spiced fish steaks pan-fried with caramelised onions and curry leaves.",
-    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1545247181-516773ca83e3?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-201",
@@ -2142,7 +2142,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Tender mutton pieces stewed with double onions and freshly cracked spices.",
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-202",
@@ -2152,7 +2152,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Slow-cooked mutton handi prepared in traditional pot style with rich gravy.",
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-203",
@@ -2162,7 +2162,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Tender mutton cooked in wok with capsicum and coarse ground spices.",
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-204",
@@ -2172,7 +2172,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Slow-braised goat meat in thick aromatic onion-tomato masala.",
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-205",
@@ -2182,7 +2182,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Spiced minced goat meat saut\u00e9ed with onions, green peas, and fresh mint.",
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-206",
@@ -2192,7 +2192,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Melt-in-mouth mutton cuts braised in aromatic Kashmiri spices, fennel, and curd.",
-    "image": "https://images.unsplash.com/photo-1544025162-d76694265947?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-207",
@@ -2422,7 +2422,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Slow-simmered whole black lentils cooked overnight with butter and fresh cream.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1788601988466-9f361c34c6cb?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-230",
@@ -2472,7 +2472,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh whole wheat flatbread puffed on iron tava.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1680359873724-8062c6806704?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-235",
@@ -2482,7 +2482,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tava puffed whole wheat roti brushed with fresh butter.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1680359873724-8062c6806704?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-236",
@@ -2492,7 +2492,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Whole wheat flatbread freshly baked in traditional clay oven.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1680359873724-8062c6806704?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-237",
@@ -2502,7 +2502,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Clay oven baked whole wheat roti finished with melted butter.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1680359873724-8062c6806704?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-238",
@@ -2512,7 +2512,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Soft, puffy refined flour leavened bread baked in tandoor.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-239",
@@ -2522,7 +2522,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Clay oven baked naan generously brushed with pure butter.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-240",
@@ -2532,7 +2532,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Tandoori naan topped with roasted minced garlic and coriander, brushed with butter.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-241",
@@ -2542,7 +2542,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Gram flour and whole wheat bread seasoned with carom seeds and fenugreek.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-242",
@@ -2552,7 +2552,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Layered wheat bread baked on griddle with ghee.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-243",
@@ -2562,7 +2562,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Multi-layered spiral whole wheat bread brushed with butter.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1754394483922-4d3a10cc6187?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-244",
@@ -2572,7 +2572,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Flatbread stuffed with spiced mashed potatoes, grilled with butter.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1754394483922-4d3a10cc6187?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-245",
@@ -2582,7 +2582,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crisp tandoori kulcha stuffed with seasoned garlic and herbs.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1754394483922-4d3a10cc6187?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-246",
@@ -2592,7 +2592,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Flaky kulcha stuffed with spiced potato and onion masala.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1754394483922-4d3a10cc6187?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-247",
@@ -2602,7 +2602,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Amritsari style kulcha stuffed with seasoned crumbled cottage cheese.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-248",
@@ -2612,7 +2612,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tandoori naan stuffed with molten mozzarella cheese.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-249",
@@ -2622,7 +2622,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Decadent naan stuffed with melted cheese and topped with roasted garlic.",
-    "image": "https://images.unsplash.com/photo-1621996346565-e3d5d6281724?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1655979284091-eea0e93405ee?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-250",
@@ -2652,7 +2652,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Bite-sized tender chicken nuggets fried to crunchy golden brown.",
-    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-253",
@@ -2662,7 +2662,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy fried golden croquettes filled with molten cheese.",
-    "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-254",
@@ -2672,7 +2672,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy crumbed balls filled with gooey cheese and sweet corn.",
-    "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-255",
@@ -2682,7 +2682,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spiced vegetable patty topped with melted cheese, lettuce, and mayo in toasted bun.",
-    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-256",
@@ -2692,7 +2692,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy spiced vegetable patty with cucumber, tomato, and burger sauce.",
-    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-257",
@@ -2722,7 +2722,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Crisp chicken patty loaded with melted cheddar cheese slice and garlic sauce.",
-    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop"
+    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop"
   },
   {
     "id": "dish-260",
