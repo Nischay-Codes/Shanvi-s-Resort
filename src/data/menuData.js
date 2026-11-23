@@ -142,7 +142,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Classic refreshing mocktail with ginger fizz, sweet grenadine, and maraschino cherries.",
-    "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/shirley-temple-mocktail.jpg"
   },
   {
     "id": "dish-2",
@@ -151,8 +151,8 @@ export const menuItems = [
     "price": "130",
     "isVeg": true,
     "isSpecial": false,
-    "description": "Vibrant blue cura\u00e7ao syrup blended with citrus fizz and garden mint.",
-    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop"
+    "description": "Vibrant blue curaçao syrup blended with citrus fizz and garden mint.",
+    "image": "/dishes/blue-blossom-mocktail.jpg"
   },
   {
     "id": "dish-3",
@@ -162,7 +162,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Sweet Alphonso mango pulp infused with spicy ginger essence and lime.",
-    "image": "https://images.unsplash.com/photo-1621263764928-df1444c5e859?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mango-mule-mocktail.jpg"
   },
   {
     "id": "dish-4",
@@ -172,7 +172,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Dark berry reduction, cola splash, and roasted cumin citrus.",
-    "image": "https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/black-dog-mocktail.jpg"
   },
   {
     "id": "dish-5",
@@ -182,7 +182,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Deep blackcurrant and concord grape reduction with sparkling bubbles.",
-    "image": "https://images.unsplash.com/photo-1527661591475-527312dd65f5?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/darknight-mocktail.jpg"
   },
   {
     "id": "dish-6",
@@ -192,7 +192,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Layered tropical orange nectar, sweet grenadine, and sparkling soda.",
-    "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/sunrise-mocktail.jpg"
   },
   {
     "id": "dish-7",
@@ -202,7 +202,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Cold-pressed pineapple juice with floral botanical extract and lime.",
-    "image": "https://images.unsplash.com/photo-1546171753-97d7676e4602?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/pineapple-blossom-mocktail.jpg"
   },
   {
     "id": "dish-8",
@@ -211,8 +211,8 @@ export const menuItems = [
     "price": "90",
     "isVeg": true,
     "isSpecial": false,
-    "description": "Blue cura\u00e7ao syrup muddled with fresh mint sprigs, lime wedges, and soda.",
-    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop"
+    "description": "Blue curaçao syrup muddled with fresh mint sprigs, lime wedges, and soda.",
+    "image": "/dishes/blue-lagoon-mojito.jpg"
   },
   {
     "id": "dish-9",
@@ -222,7 +222,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Creamy coconut milk, pineapple juice, mint leaves, and effervescent soda.",
-    "image": "https://images.unsplash.com/photo-1546171753-97d7676e4602?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/pina-colada-mojito.jpg"
   },
   {
     "id": "dish-10",
@@ -232,7 +232,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crisp green apple syrup with muddled lemon, mint leaves, and club soda.",
-    "image": "https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/green-apple-mojito.jpg"
   },
   {
     "id": "dish-11",
@@ -242,7 +242,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh juicy watermelon chunks muddled with garden mint and chilled soda.",
-    "image": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/watermelon-mojito.jpg"
   },
   {
     "id": "dish-12",
@@ -252,7 +252,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Sweet-tart black currant essence with crushed ice, lemon, and fresh mint.",
-    "image": "https://images.unsplash.com/photo-1527661591475-527312dd65f5?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/black-current-mojito.jpg"
   },
   {
     "id": "dish-13",
@@ -262,7 +262,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Delicate berry rose essence, fresh lime, and sparkling mint cooler.",
-    "image": "https://images.unsplash.com/photo-1536935338788-846bb9981813?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/pink-lady-mojito.jpg"
   },
   {
     "id": "dish-14",
@@ -272,7 +272,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Authentic betel leaf essence, sweet gulkand, fresh mint, and soda.",
-    "image": "https://images.unsplash.com/photo-1551024709-8f23befc6f87?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paan-mojito.jpg"
   },
   {
     "id": "dish-15",
