@@ -2652,7 +2652,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Bite-sized tender chicken nuggets fried to crunchy golden brown.",
-    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-popcorn.jpg"
   },
   {
     "id": "dish-253",
@@ -2662,7 +2662,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy fried golden croquettes filled with molten cheese.",
-    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/cheese-ball.jpg"
   },
   {
     "id": "dish-254",
@@ -2672,7 +2672,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy crumbed balls filled with gooey cheese and sweet corn.",
-    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/cheese-corn-ball.jpg"
   },
   {
     "id": "dish-255",
@@ -2682,7 +2682,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spiced vegetable patty topped with melted cheese, lettuce, and mayo in toasted bun.",
-    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-cheese-burger.jpg"
   },
   {
     "id": "dish-256",
@@ -2692,7 +2692,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy spiced vegetable patty with cucumber, tomato, and burger sauce.",
-    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/classic-veg-burger.jpg"
   },
   {
     "id": "dish-257",
@@ -2712,7 +2712,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Crispy seasoned chicken patty in a toasted sesame bun with lettuce and mayo.",
-    "image": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-burger.jpg"
   },
   {
     "id": "dish-259",
@@ -2722,7 +2722,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Crisp chicken patty loaded with melted cheddar cheese slice and garlic sauce.",
-    "image": "https://images.unsplash.com/photo-1550547660-d9450f859349?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-cheese-burger.jpg"
   },
   {
     "id": "dish-260",
@@ -2732,7 +2732,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Crispy hand-stretched crust topped with seasoned chicken and mozzarella.",
-    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-cheese-pizza.jpg"
   },
   {
     "id": "dish-261",
@@ -2742,7 +2742,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Loaded chicken chunks, jalape\u00f1os, sweet corn, and double mozzarella cheese.",
-    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-mexican-pizza.jpg"
   },
   {
     "id": "dish-262",
@@ -2752,7 +2752,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Simple delicious pizza covered in melted 100% mozzarella cheese.",
-    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/cheese-pizza.jpg"
   },
   {
     "id": "dish-263",
@@ -2762,7 +2762,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Golden sweet corn kernels and melted mozzarella on tomato herb base.",
-    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/cheese-corn-pizza.jpg"
   },
   {
     "id": "dish-264",
@@ -2772,7 +2772,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Classic Italian pizza with tomato sauce, mozzarella, and dried oregano.",
-    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/margherita-pizza.jpg"
   },
   {
     "id": "dish-265",
@@ -2782,7 +2782,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Saut\u00e9ed button mushrooms, herbs, and melted mozzarella cheese.",
-    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mushroom-pizza.jpg"
   },
   {
     "id": "dish-266",
@@ -2792,7 +2792,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Topped with bell peppers, onions, tomatoes, sweet corn, and cheese.",
-    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-pizza.jpg"
   },
   {
     "id": "dish-267",
@@ -2802,7 +2802,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spicy pizza topped with jalape\u00f1os, onions, crisp capsicum, and herbs.",
-    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mexican-pizza.jpg"
   },
   {
     "id": "dish-268",
@@ -2812,7 +2812,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Tandoori spiced paneer cubes, bell peppers, onions, and melted mozzarella.",
-    "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-tandoori-pizza.jpg"
   },
   {
     "id": "dish-269",
