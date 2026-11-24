@@ -822,7 +822,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Paneer morsels tossed in an aromatic roasted garlic sauce.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-garlic-sauce.jpg"
   },
   {
     "id": "dish-70",
@@ -902,7 +902,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy fried mushrooms seasoned with crushed black pepper and green scallions.",
-    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mushroom-salt-pepper.jpg"
   },
   {
     "id": "dish-78",
@@ -922,7 +922,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spicy crisp-fried mushrooms tossed with southern spices and curry leaves.",
-    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mushroom-65.jpg"
   },
   {
     "id": "dish-80",
@@ -932,7 +932,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Button mushrooms tossed in dark ginger-garlic Manchurian gravy.",
-    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mushroom-manchurian.jpg"
   },
   {
     "id": "dish-81",
@@ -1272,7 +1272,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Melt-in-mouth cottage cheese coated in royal cashew cream and mild spices.",
-    "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-malai-tikka.jpg"
   },
   {
     "id": "dish-115",
@@ -1592,7 +1592,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Thick semi-dry spicy gravy coating soft cottage cheese cubes.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-lapeta.jpg"
   },
   {
     "id": "dish-147",
@@ -1612,7 +1612,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Cottage cheese cubes tossed on iron tava with tangy dry mango and roasted spices.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-tava-chatpata.jpg"
   },
   {
     "id": "dish-149",
@@ -1652,7 +1652,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Earthen pot cooked mushrooms simmered with aromatic roasted spices.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mushroom-handi.jpg"
   },
   {
     "id": "dish-153",
@@ -1672,7 +1672,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spicy mushroom curry prepared with roasted red chilli Kolhapuri masala.",
-    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mushroom-kolhapuri.jpg"
   },
   {
     "id": "dish-155",
@@ -2132,7 +2132,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Spiced fish steaks pan-fried with caramelised onions and curry leaves.",
-    "image": "https://images.unsplash.com/photo-1545247181-516773ca83e3?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/fish-onion-fry.jpg"
   },
   {
     "id": "dish-201",
