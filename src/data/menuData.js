@@ -1922,7 +1922,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Pan-fried eggs saut\u00e9ed with caramelised onions and spices.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/egg-onion-fry.jpg"
   },
   {
     "id": "dish-180",
@@ -1962,7 +1962,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Boiled eggs cooked in a thick spicy onion-tomato gravy with roasted spices.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/egg-masala.jpg"
   },
   {
     "id": "dish-184",
@@ -1972,7 +1972,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Kolkata style yellow dal cooked with scrambled eggs and double tadka.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/egg-tadka.jpg"
   },
   {
     "id": "dish-185",
@@ -1982,7 +1982,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Authentic local country chicken slow-cooked with rustic whole spices in an earthen pot (Serves 4-5).",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/desi-chicken-curry.jpg"
   },
   {
     "id": "dish-186",
@@ -1992,7 +1992,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Comforting homestyle chicken curry cooked with onions, ginger, and garlic.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-curry-homestyle.jpg"
   },
   {
     "id": "dish-187",
@@ -2002,7 +2002,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Tender chicken pieces simmered in traditional spiced gravy.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-curry.jpg"
   },
   {
     "id": "dish-188",
@@ -2012,7 +2012,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Semi-dry chicken preparation with double caramelised onions and green chillies.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-onion-fry.jpg"
   },
   {
     "id": "dish-189",
@@ -2022,7 +2022,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Flavourful chicken in spicy green herb, mint, and spinach gravy.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-hyderabadi.jpg"
   },
   {
     "id": "dish-190",
@@ -2032,7 +2032,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Fiery Maharashtrian style chicken curry cooked with roasted red chillies.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-kolhapuri.jpg"
   },
   {
     "id": "dish-191",
@@ -2042,7 +2042,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Chicken pieces cooked with coarse ground spices, onions, and tomatoes.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-masala.jpg"
   },
   {
     "id": "dish-192",
@@ -2052,7 +2052,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Tender chicken cooked with crunchy onion petals in aromatic curry.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-do-pyaza.jpg"
   },
   {
     "id": "dish-193",
@@ -2062,7 +2062,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Chicken slow-simmered in an earthen handi pot with roasted whole spices.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-handi.jpg"
   },
   {
     "id": "dish-194",
@@ -2072,7 +2072,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Royal chicken curry enriched with egg ribbon, cashew paste, and saffron.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-mughlai.jpg"
   },
   {
     "id": "dish-195",
@@ -2082,7 +2082,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Creamy North Indian preparation with chicken wrapped in seasoned omelette.",
-    "image": "https://images.unsplash.com/photo-1545247181-516773ca83e3?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-patiala.jpg"
   },
   {
     "id": "dish-196",
@@ -2092,7 +2092,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Boneless tandoori chicken simmered in silky tomato butter makhani gravy.",
-    "image": "https://images.unsplash.com/photo-1545247181-516773ca83e3?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-butter-masala.jpg"
   },
   {
     "id": "dish-197",
