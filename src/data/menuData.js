@@ -892,7 +892,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Golden button mushrooms wok-tossed with capsicum, onions, and chilli soya.",
-    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mushroom-chilli.jpg"
   },
   {
     "id": "dish-77",
@@ -942,7 +942,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Batter-fried sweet corn tossed with green chillies, onions, and chaat spices.",
-    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/crispy-corn.jpg"
   },
   {
     "id": "dish-82",
@@ -952,7 +952,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Sweet corn kernels stir fried with diced bell peppers and spicy chilli glaze.",
-    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/corn-chilli.jpg"
   },
   {
     "id": "dish-83",
@@ -962,7 +962,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Golden fried corn with coarse black pepper and garlic seasoning.",
-    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/corn-salt-pepper.jpg"
   },
   {
     "id": "dish-84",
@@ -972,7 +972,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Warm sweet corn mixed with fresh butter, lemon juice, and tangy chaat masala.",
-    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/corn-chaat.jpg"
   },
   {
     "id": "dish-85",
@@ -982,7 +982,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tender boiled chickpeas tossed with onions, tomatoes, green chillies, and lemon.",
-    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chana-chaat.jpg"
   },
   {
     "id": "dish-86",
@@ -992,7 +992,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy pan-roasted spiced chickpeas seasoned with desi spices.",
-    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chana-roast.jpg"
   },
   {
     "id": "dish-87",
@@ -1002,7 +1002,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crisp fried chickpeas wok-tossed with capsicum, garlic, and chilli sauce.",
-    "image": "https://images.unsplash.com/photo-1585937421612-70a008356fbe?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chana-chilli.jpg"
   },
   {
     "id": "dish-88",
@@ -1012,7 +1012,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy potato fingers tossed in spicy chilli garlic sauce with capsicum.",
-    "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/potato-chilli.jpg"
   },
   {
     "id": "dish-89",
@@ -1022,7 +1022,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy fried potato strips coated in sweet honey chilli glaze and toasted sesame.",
-    "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/honey-potato-chilli.jpg"
   },
   {
     "id": "dish-90",
@@ -1032,7 +1032,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Assorted crispy batter-fried vegetables tossed in spicy red Chinese sauce.",
-    "image": "https://images.unsplash.com/photo-1566843972140-7a8d85d7c2de?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-crispy.jpg"
   },
   {
     "id": "dish-91",
@@ -1042,7 +1042,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crisp minced vegetable dumplings tossed with ginger, garlic, and dark soy.",
-    "image": "https://images.unsplash.com/photo-1566843972140-7a8d85d7c2de?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-manchurian-dry.jpg"
   },
   {
     "id": "dish-92",
@@ -1052,7 +1052,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Vegetable dumplings simmered in savory dark soy-garlic sauce.",
-    "image": "https://images.unsplash.com/photo-1566843972140-7a8d85d7c2de?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-manchurian-gravy.jpg"
   },
   {
     "id": "dish-93",
@@ -1062,7 +1062,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Tender crisp baby corn pieces tossed with bell peppers and chilli sauce.",
-    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/baby-corn-chilli.jpg"
   },
   {
     "id": "dish-94",
@@ -1072,7 +1072,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Golden fried baby corn fingers tossed in hot garlic seasoning.",
-    "image": "https://images.unsplash.com/photo-1562967914-608f82629710?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/baby-corn-crispy.jpg"
   },
   {
     "id": "dish-95",
