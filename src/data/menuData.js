@@ -1902,7 +1902,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Two perfectly hard-boiled farm eggs served with black pepper and salt.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/egg-boil.jpg"
   },
   {
     "id": "dish-178",
@@ -1912,7 +1912,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Double egg fluffy omelette folded with chopped onions and green herbs.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/egg-omelette.jpg"
   },
   {
     "id": "dish-179",
@@ -1932,7 +1932,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Scrambled eggs tossed with onions, tomatoes, green chillies, and coriander.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/egg-bhurji.jpg"
   },
   {
     "id": "dish-181",
@@ -1942,7 +1942,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Spicy scrambled eggs simmered in rich onion-tomato curry.",
-    "image": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/egg-bhurji-curry.jpg"
   },
   {
     "id": "dish-182",
@@ -1952,7 +1952,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Pan-fried boiled eggs served in a hearty spiced gravy with chopped coriander.",
-    "image": "https://images.unsplash.com/photo-1588166524941-3bf61a9c41db?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/egg-curry.jpg"
   },
   {
     "id": "dish-183",
@@ -2102,7 +2102,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Plump prawns cooked in a spicy onion-tomato gravy with mustard and curry leaves.",
-    "image": "https://images.unsplash.com/photo-1545247181-516773ca83e3?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/prawn-masala.jpg"
   },
   {
     "id": "dish-198",
@@ -2112,7 +2112,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Succulent prawns simmered in fragrant coastal coconut curry.",
-    "image": "https://images.unsplash.com/photo-1545247181-516773ca83e3?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/prawn-curry.jpg"
   },
   {
     "id": "dish-199",
@@ -2122,7 +2122,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Fish steaks cooked in homestyle spiced onion-tomato gravy with fresh herbs.",
-    "image": "https://images.unsplash.com/photo-1545247181-516773ca83e3?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/fish-masala.jpg"
   },
   {
     "id": "dish-200",
@@ -2142,7 +2142,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Tender mutton pieces stewed with double onions and freshly cracked spices.",
-    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mutton-do-pyaza.jpg"
   },
   {
     "id": "dish-202",
@@ -2152,7 +2152,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Slow-cooked mutton handi prepared in traditional pot style with rich gravy.",
-    "image": "https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mutton-handi.jpg"
   },
   {
     "id": "dish-203",
@@ -2162,7 +2162,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Tender mutton cooked in wok with capsicum and coarse ground spices.",
-    "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mutton-kadhai.jpg"
   },
   {
     "id": "dish-204",
@@ -2172,7 +2172,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Slow-braised goat meat in thick aromatic onion-tomato masala.",
-    "image": "https://images.unsplash.com/photo-1565680018434-b513d5e5fd47?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mutton-masala.jpg"
   },
   {
     "id": "dish-205",
@@ -2182,7 +2182,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Spiced minced goat meat saut\u00e9ed with onions, green peas, and fresh mint.",
-    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mutton-keema-masala.jpg"
   },
   {
     "id": "dish-206",
@@ -2192,7 +2192,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": true,
     "description": "Melt-in-mouth mutton cuts braised in aromatic Kashmiri spices, fennel, and curd.",
-    "image": "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mutton-rogan-josh.jpg"
   },
   {
     "id": "dish-207",
