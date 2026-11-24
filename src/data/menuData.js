@@ -872,7 +872,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Sizzling paneer starter served piping hot with bell peppers and tangy sauce.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-hot-pan.jpg"
   },
   {
     "id": "dish-75",
@@ -912,7 +912,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Plump mushrooms glazed with rich aromatic garlic sauce.",
-    "image": "https://images.unsplash.com/photo-1541529086526-db283c563270?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mushroom-garlic-sauce.jpg"
   },
   {
     "id": "dish-79",
@@ -1582,7 +1582,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spicy, tangy and chatpata paneer gravy special with capsicum.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-chulbuli.jpg"
   },
   {
     "id": "dish-146",
@@ -1762,7 +1762,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Mixed vegetables tossed with bell peppers and roasted kadhai masala.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-kadhai.jpg"
   },
   {
     "id": "dish-164",
@@ -1802,7 +1802,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Rajasthani style vegetable curry topped with roasted papad crunch.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-jaipuri.jpg"
   },
   {
     "id": "dish-168",
@@ -2462,7 +2462,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spiced dry roasted lentil specialty ideal as evening accompaniment.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/dal-chakhna.jpg"
   },
   {
     "id": "dish-234",
@@ -3032,7 +3032,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Assortment of potato, onion, and vegetable fritters served with chutney.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mix-pakoda.jpg"
   },
   {
     "id": "dish-291",
