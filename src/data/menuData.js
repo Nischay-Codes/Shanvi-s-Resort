@@ -1192,7 +1192,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Extra crispy textured vegetable kebabs with spiced herb filling.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-kurkure-kebab.jpg"
   },
   {
     "id": "dish-107",
@@ -1212,7 +1212,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Juicy button mushrooms marinated in aromatic tandoori masala, charcoal roasted.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mushroom-tikka.jpg"
   },
   {
     "id": "dish-109",
@@ -1222,7 +1222,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Finely minced vegetables seasoned with herbs and grilled on skewers.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-seekh-kebab.jpg"
   },
   {
     "id": "dish-110",
@@ -1232,7 +1232,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Fresh cottage cheese cubes marinated in hung curd and spices, roasted in clay oven.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-tikka.jpg"
   },
   {
     "id": "dish-111",
@@ -1242,7 +1242,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fiery smoked spicy red marinade coating grilled paneer cubes.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-angara-tikka.jpg"
   },
   {
     "id": "dish-112",
@@ -1252,7 +1252,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Paneer marinated in fresh mint, coriander, and mountain green herbs.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-pahadi-tikka.jpg"
   },
   {
     "id": "dish-113",
@@ -1262,7 +1262,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Paneer chunks infused with rich roasted garlic paste and curd.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-lahsuni-tikka.jpg"
   },
   {
     "id": "dish-114",
@@ -1292,7 +1292,7 @@ export const menuItems = [
     "isVeg": false,
     "isSpecial": false,
     "description": "Minced chicken patties flavored with fresh spinach, mint, and spices.",
-    "image": "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/chicken-hara-bhara-kebab.jpg"
   },
   {
     "id": "dish-117",
@@ -1462,7 +1462,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh cottage cheese and sweet green peas cooked in spiced onion gravy.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/matar-paneer.jpg"
   },
   {
     "id": "dish-134",
@@ -1522,7 +1522,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Grated and layered paneer in rich spiced onion-tomato gravy.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-lachedar.jpg"
   },
   {
     "id": "dish-140",
@@ -1542,7 +1542,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Rich combination of minced paneer and cottage cheese chunks in aromatic gravy.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-rara-masala.jpg"
   },
   {
     "id": "dish-142",
@@ -1562,7 +1562,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": true,
     "description": "Charcoal grilled paneer tikkas finished in rich onion-tomato masala with butter.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/paneer-tikka-masala.jpg"
   },
   {
     "id": "dish-144",
@@ -1642,7 +1642,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh mushrooms cooked with bell peppers, onions, and coarse kadhai masala.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mushroom-kadhai.jpg"
   },
   {
     "id": "dish-152",
@@ -1692,7 +1692,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy fried okra saut\u00e9ed with browned onions and chatpata spices.",
-    "image": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/bhindi-onion-fry.jpg"
   },
   {
     "id": "dish-157",
@@ -1792,7 +1792,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Slow-roasted vegetables in thick deeply caramelized onion-tomato paste.",
-    "image": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-bhuna-handi.jpg"
   },
   {
     "id": "dish-167",
