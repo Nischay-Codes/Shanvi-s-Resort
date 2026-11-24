@@ -852,7 +852,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Spicy cottage cheese tossed in bold homemade Schezwan pepper reduction.",
-    "image": "https://images.unsplash.com/photo-1567188040759-fb8a883dc6d8?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/schezwan-paneer-chilli.jpg"
   },
   {
     "id": "dish-73",
@@ -1622,7 +1622,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Fresh mushrooms and tender baby corn cooked in fragrant spiced curry.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mushroom-baby-corn-masala.jpg"
   },
   {
     "id": "dish-150",
@@ -1662,7 +1662,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Mushrooms cooked with double quantity of caramelized onions and spices.",
-    "image": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mushroom-do-pyaza.jpg"
   },
   {
     "id": "dish-154",
@@ -2632,7 +2632,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Golden, salted crispy potato batons served with ketchup.",
-    "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/french-fry.jpg"
   },
   {
     "id": "dish-251",
@@ -2642,7 +2642,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy French fries tossed in spicy African peri peri seasoning.",
-    "image": "https://images.unsplash.com/photo-1576107232684-1279f3908594?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/peri-peri-fries.jpg"
   },
   {
     "id": "dish-252",
@@ -2852,7 +2852,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Toasted golden sandwich stuffed with sliced cucumbers, tomatoes, and mint chutney.",
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-grilled-sandwich.jpg"
   },
   {
     "id": "dish-273",
@@ -2862,7 +2862,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Grilled golden sandwich with spiced vegetables and melted mozzarella cheese.",
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-cheese-grilled-sandwich.jpg"
   },
   {
     "id": "dish-274",
@@ -2872,7 +2872,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Toasted sandwich with seasoned potato masala filling and green chutney.",
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/potato-sandwich.jpg"
   },
   {
     "id": "dish-275",
@@ -2882,7 +2882,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crunchy vegetables tossed in creamy mayonnaise spread in bread slices.",
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-mayo-sandwich.jpg"
   },
   {
     "id": "dish-276",
@@ -2902,7 +2902,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Grilled sandwich with jalape\u00f1os, sweet corn, spicy salsa, and cheese.",
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/mexican-sandwich.jpg"
   },
   {
     "id": "dish-278",
@@ -2912,7 +2912,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Zesty spiced sandwich tossed in spicy peri peri seasoning.",
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/peri-peri-masala-sandwich.jpg"
   },
   {
     "id": "dish-279",
@@ -2922,7 +2922,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Triple-decker toasted sandwich with vegetables, cheese, and french fries.",
-    "image": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/club-sandwich.jpg"
   },
   {
     "id": "dish-280",
@@ -3002,7 +3002,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Single piping hot balloon-puffed bhatura.",
-    "image": "https://images.unsplash.com/photo-1626082927389-6cd097cdc6ec?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/extra-bhature.jpg"
   },
   {
     "id": "dish-288",
@@ -3052,7 +3052,7 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Crispy crumb-coated vegetable patties served with mint chutney.",
-    "image": "https://images.unsplash.com/photo-1601050690597-df0568f70950?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/veg-cutlet.jpg"
   },
   {
     "id": "dish-293",
