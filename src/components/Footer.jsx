@@ -23,7 +23,7 @@ export default function Footer({ onOpenCallModal, onOpenInfoModal }) {
             </p>
             <div className="pt-2 text-xs text-gold/80 flex items-center gap-2">
               <span className="w-2 h-2 rounded-full bg-emerald-400" />
-              <span>In-Room & Garden Dining Available Daily</span>
+              <span>In-Room & Dining Table Service Available Daily</span>
             </div>
           </div>
 
@@ -50,12 +50,12 @@ export default function Footer({ onOpenCallModal, onOpenInfoModal }) {
                 Location: {resortInfo.location}
               </p>
             </div>
-            <button
-              onClick={onOpenCallModal}
-              className="mt-2 text-xs uppercase tracking-wider text-gold hover:text-ivory font-semibold inline-flex items-center gap-1.5 transition-colors"
+            <a
+              href={`tel:${resortInfo.phone.tel}`}
+              className="mt-2 text-xs uppercase tracking-wider text-gold hover:text-ivory font-semibold inline-flex items-center gap-1.5 transition-colors active:scale-95"
             >
               <Phone size={12} /> Dial Culinary Desk
-            </button>
+            </a>
           </div>
 
           {/* Gastronomy Notes & Quality Assurance */}

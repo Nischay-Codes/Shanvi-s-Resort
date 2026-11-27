@@ -20,7 +20,7 @@ export default function DiningInfoSection({ onOpenCallModal }) {
             Contact & Kitchen Operating Hours
           </h2>
           <p className="text-sm sm:text-base text-ivory/80 font-light leading-relaxed">
-            Our kitchen team is available throughout the day to prepare your orders fresh. For in-room dining, poolside orders, or garden service, please reach out to us directly.
+            Our kitchen team is available throughout the day to prepare your orders fresh. For in-room dining, poolside orders, or dining table service, please reach out to us directly.
           </p>
         </div>
 
@@ -62,12 +62,13 @@ export default function DiningInfoSection({ onOpenCallModal }) {
               </div>
             </div>
 
-            <button
-              onClick={onOpenCallModal}
-              className="w-full py-3.5 rounded-full bg-gold hover:bg-gold-light text-forest-dark font-bold text-xs uppercase tracking-widest text-center shadow-gold-glow transition-all"
+            <a
+              href={`tel:${resortInfo.phone.tel}`}
+              className="w-full py-3.5 rounded-full bg-gold hover:bg-gold-light text-forest-dark font-bold text-xs uppercase tracking-widest text-center shadow-gold-glow transition-all flex items-center justify-center gap-2 active:scale-95"
             >
-              Call Culinary Desk Now
-            </button>
+              <Phone size={14} />
+              <span>Call Culinary Desk Now</span>
+            </a>
           </div>
 
           {/* Card 2: Location & Address */}
@@ -80,7 +81,7 @@ export default function DiningInfoSection({ onOpenCallModal }) {
                 Resort Location
               </h3>
               <p className="text-xs sm:text-sm text-ivory/70 leading-relaxed font-light mb-6">
-                Located on the scenic Chitrakote route in Jagdalpur, amidst ancient sal trees and serene natural greenery.
+                Located at Jamguda on Kurandi Road in Jagdalpur, Bastar, amidst serene natural greenery.
               </p>
 
               <div className="space-y-2 bg-forest/50 p-4 rounded-2xl border border-white/5 text-xs text-ivory/80 leading-relaxed">
@@ -89,7 +90,7 @@ export default function DiningInfoSection({ onOpenCallModal }) {
                   {resortInfo.location}
                 </p>
                 <p className="pt-2 border-t border-white/5 text-[11px] text-ivory/60">
-                  Landmark: On the way to Chitrakote & Tirathgarh Waterfalls
+                  Landmark: Kurandi Road, Kurandi, Jagdalpur, Bastar
                 </p>
               </div>
             </div>
@@ -159,7 +160,7 @@ export default function DiningInfoSection({ onOpenCallModal }) {
                   <span className="text-[11px] font-semibold uppercase tracking-wider">{slot.label}</span>
                 </div>
                 <p className="font-serif text-base sm:text-lg font-bold text-ivory">{slot.time}</p>
-                <p className="text-[11px] text-ivory/60">Delivered directly to room or garden</p>
+                <p className="text-[11px] text-ivory/60">Served directly at dining table or in-room</p>
               </div>
             ))}
           </div>

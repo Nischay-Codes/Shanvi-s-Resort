@@ -3122,6 +3122,6 @@ export const menuItems = [
     "isVeg": true,
     "isSpecial": false,
     "description": "Two generous scoops of vanilla, chocolate, butterscotch, or strawberry ice cream.",
-    "image": "https://images.unsplash.com/photo-1587314168485-3236d6710814?q=80&w=800&auto=format&fit=crop"
+    "image": "/dishes/choice-of-ice-cream.jpg"
   }
 ];

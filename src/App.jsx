@@ -1,4 +1,4 @@
-import React, { useState, useMemo } from 'react';
+import React, { useState, useMemo, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import AboutSection from './components/AboutSection';
@@ -7,9 +7,11 @@ import FilterBar from './components/FilterBar';
 import MenuCard from './components/MenuCard';
 import MenuItemModal from './components/MenuItemModal';
 import CallToOrderModal from './components/CallToOrderModal';
+import OrderPadModal from './components/OrderPadModal';
 import DiningInfoSection from './components/DiningInfoSection';
 import Footer from './components/Footer';
 import FloatingCallButton from './components/FloatingCallButton';
+import BackToTopButton from './components/BackToTopButton';
 import { categories, menuItems } from './data/menuData';
 import { resortInfo } from './data/resortData';
 import { UtensilsCrossed, Phone, Sparkles } from 'lucide-react';
@@ -21,6 +23,66 @@ export default function App() {
   const [selectedItem, setSelectedItem] = useState(null);
   const [isCallModalOpen, setIsCallModalOpen] = useState(false);
   const [modalCallingItem, setModalCallingItem] = useState(null);
+
+  // Table Order Pad / Shortlist state with localStorage persistence
+  const [shortlist, setShortlist] = useState(() => {
+    try {
+      const saved = localStorage.getItem('shanvis_order_pad');
+      return saved ? JSON.parse(saved) : {};
+    } catch {
+      return {};
+    }
+  });
+  const [isOrderPadOpen, setIsOrderPadOpen] = useState(false);
+
+  useEffect(() => {
+    try {
+      localStorage.setItem('shanvis_order_pad', JSON.stringify(shortlist));
+    } catch (e) {
+      console.error(e);
+    }
+  }, [shortlist]);
+
+  const handleToggleShortlist = (item) => {
+    setShortlist((prev) => {
+      const copy = { ...prev };
+      if (copy[item.id]) {
+        delete copy[item.id];
+      } else {
+        copy[item.id] = { item, quantity: 1 };
+      }
+      return copy;
+    });
+  };
+
+  const handleUpdateQuantity = (itemId, delta) => {
+    setShortlist((prev) => {
+      const copy = { ...prev };
+      if (!copy[itemId]) return prev;
+      const newQty = (copy[itemId].quantity || 1) + delta;
+      if (newQty <= 0) {
+        delete copy[itemId];
+      } else {
+        copy[itemId] = { ...copy[itemId], quantity: newQty };
+      }
+      return copy;
+    });
+  };
+
+  const handleClearShortlist = () => {
+    setShortlist({});
+  };
+
+  const totalShortlistCount = useMemo(() => {
+    return Object.values(shortlist).reduce((acc, curr) => acc + (curr.quantity || 1), 0);
+  }, [shortlist]);
+
+  const totalEstimatedPrice = useMemo(() => {
+    return Object.values(shortlist).reduce((acc, curr) => {
+      const p = parseFloat(curr.item.price) || 0;
+      return acc + p * (curr.quantity || 1);
+    }, 0);
+  }, [shortlist]);
 
   // Compute item count per category
   const itemCounts = useMemo(() => {
@@ -83,38 +145,35 @@ export default function App() {
 
   return (
     <div className="min-h-screen flex flex-col bg-ivory text-walnut selection:bg-gold/30">
-      {/* 1. Clean Navigation Bar (Home, Our Menu, About, Contact) */}
+      {/* 1. Clean Navigation Bar */}
       <Navbar onOpenCallModal={handleOpenGeneralCall} />
 
       {/* 2. Full-Width Luxury Resort Hero Section */}
       <HeroSection onOpenCallModal={handleOpenGeneralCall} />
 
-      {/* 3. Introduction Section: Resort Dining Experience */}
-      <AboutSection onOpenCallModal={handleOpenGeneralCall} />
-
-      {/* 4. Complete Digital Menu Section */}
-      <section id="our-menu" className="flex-1 bg-ivory py-12 scroll-mt-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-6 text-center">
-          <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-forest text-gold text-xs font-semibold tracking-widest uppercase mb-3 shadow-sm">
-            <Sparkles size={13} className="text-gold" />
+      {/* 3. Complete Digital Menu Section (Food First for Guests) */}
+      <section id="our-menu" className="flex-1 bg-ivory py-8 sm:py-12 scroll-mt-20">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 mb-4 sm:mb-6 text-center">
+          <div className="inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full bg-forest text-gold text-xs font-semibold tracking-widest uppercase mb-2 sm:mb-3 shadow-sm">
+            <Sparkles size={12} className="text-gold" />
             <span>Culinary Selections</span>
           </div>
-          <h2 className="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-forest">
+          <h2 className="font-serif text-2xl sm:text-4xl md:text-5xl font-bold text-forest">
             Explore Our Menu
           </h2>
-          <p className="mt-2 text-sm sm:text-base text-walnut/70 max-w-xl mx-auto font-light">
+          <p className="mt-1.5 sm:mt-2 text-xs sm:text-base text-walnut/70 max-w-xl mx-auto font-light">
             Crafted fresh by our master chefs. Browse dishes by category or dietary preference and call room service to order.
           </p>
         </div>
 
-        {/* Sticky Horizontal Category Tabs */}
+        {/* Sticky Category Tabs with Quick Sheet Picker */}
         <CategoryNav
           activeCategory={activeCategory}
           onSelectCategory={setActiveCategory}
           itemCounts={itemCounts}
         />
 
-        {/* Search & Dietary Filters (Pure Veg / Non-Veg / Chef's Special) */}
+        {/* Search & Quick Dietary Filters (with One-Tap Pure Veg toggle) */}
         <FilterBar
           searchQuery={searchQuery}
           onSearchChange={setSearchQuery}
@@ -125,40 +184,42 @@ export default function App() {
         />
 
         {/* Current Active Category Title Strip */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-8 pb-4">
-          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-3 border-b border-forest/10 pb-4">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-6 pb-2 sm:py-6">
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-2.5 border-b border-forest/10 pb-3 sm:pb-4">
             <div>
-              <span className="text-xs uppercase tracking-widest text-gold font-bold">
+              <span className="text-[11px] sm:text-xs uppercase tracking-widest text-gold font-bold">
                 {activeCategory === 'all' ? 'Resort Repertoire' : 'Selected Category'}
               </span>
-              <h3 className="font-serif text-2xl sm:text-3xl font-bold text-forest">
+              <h3 className="font-serif text-xl sm:text-3xl font-bold text-forest">
                 {currentCategoryInfo.name}
               </h3>
-              <p className="text-xs sm:text-sm text-walnut/70 mt-1 font-light">
+              <p className="text-xs sm:text-sm text-walnut/70 mt-0.5 sm:mt-1 font-light">
                 {currentCategoryInfo.description || currentCategoryInfo.tagline}
               </p>
             </div>
 
             {/* Quick ordering hint badge */}
-            <div className="text-xs text-walnut/70 bg-white px-4 py-2 rounded-full border border-forest/10 self-start sm:self-auto flex items-center gap-2 shadow-sm">
+            <div className="text-xs text-walnut/70 bg-white px-3.5 py-1.5 sm:px-4 sm:py-2 rounded-full border border-forest/10 self-start sm:self-auto flex items-center gap-2 shadow-sm">
               <span className="w-2 h-2 rounded-full bg-emerald-500 animate-pulse" />
               <span>
                 To order, dial{' '}
-                <strong className="text-forest font-bold">{resortInfo.phone.inVillaExt}</strong> from your room
+                <strong className="text-forest font-bold">Ext. {resortInfo.phone.inVillaExt}</strong> from your room
               </span>
             </div>
           </div>
         </div>
 
         {/* Menu Items Grid or Refined Empty Search State */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-8">
           {filteredItems.length > 0 ? (
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 sm:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-8">
               {filteredItems.map((item) => (
                 <MenuCard
                   key={item.id}
                   item={item}
                   onSelect={setSelectedItem}
+                  isShortlisted={Boolean(shortlist[item.id])}
+                  onToggleShortlist={handleToggleShortlist}
                 />
               ))}
             </div>
@@ -192,62 +253,10 @@ export default function App() {
             </div>
           )}
         </div>
-
-        {/* Dedicated Phone Order Station After Browsing Menu */}
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pt-4 pb-8">
-          <div className="bg-gradient-to-br from-forest-dark via-forest to-forest-dark text-ivory rounded-3xl p-8 sm:p-12 border border-gold/30 shadow-2xl relative overflow-hidden">
-            {/* Ambient luxury lighting */}
-            <div className="absolute top-0 right-0 w-80 h-80 bg-gold/10 rounded-full filter blur-3xl pointer-events-none" />
-            <div className="absolute bottom-0 left-0 w-80 h-80 bg-sage/10 rounded-full filter blur-3xl pointer-events-none" />
-
-            <div className="relative z-10 flex flex-col lg:flex-row items-center justify-between gap-8">
-              <div className="text-center lg:text-left space-y-3.5 max-w-2xl">
-                <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-forest-dark/90 border border-gold/40 text-gold text-xs font-semibold uppercase tracking-widest shadow-sm">
-                  <Phone size={13} className="text-gold" />
-                  <span>Order by Phone Call</span>
-                </div>
-
-                <h3 className="font-serif text-2xl sm:text-3xl md:text-4xl font-bold text-ivory leading-tight">
-                  Ready to Place Your Order?
-                </h3>
-
-                <p className="text-sm sm:text-base text-ivory/80 font-light leading-relaxed">
-                  Done browsing our menu? Simply note down your selected dishes and dial in-room dining. Our chefs will prepare everything fresh and deliver piping-hot meals straight to your cottage or table.
-                </p>
-
-                <div className="flex flex-wrap items-center justify-center lg:justify-start gap-3 sm:gap-6 pt-2 text-xs text-gold/90">
-                  <span className="flex items-center gap-1.5">
-                    <span className="w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
-                    From Room Phone: <strong className="text-ivory font-bold">{resortInfo.phone.inVillaExt}</strong>
-                  </span>
-                  <span className="text-ivory/30 hidden sm:inline">•</span>
-                  <span>Kitchen Line: <strong className="text-ivory font-semibold">{resortInfo.phone.display}</strong></span>
-                  <span className="text-ivory/30 hidden sm:inline">•</span>
-                  <span>Fresh Prep: ~20–30 Mins</span>
-                </div>
-              </div>
-
-              {/* Central Direct Phone Call Action */}
-              <div className="flex flex-col sm:flex-row lg:flex-col gap-3.5 w-full sm:w-auto shrink-0">
-                <a
-                  href={`tel:${resortInfo.phone.tel}`}
-                  className="px-8 py-4 rounded-full bg-gold hover:bg-gold-light text-forest-dark font-bold text-sm tracking-wider uppercase flex items-center justify-center gap-3 shadow-gold-glow hover:shadow-2xl transition-all duration-300 group"
-                >
-                  <Phone size={18} className="text-forest-dark group-hover:rotate-12 transition-transform duration-300" />
-                  <span>Call to Order Now</span>
-                </a>
-
-                <button
-                  onClick={handleOpenGeneralCall}
-                  className="px-7 py-3 rounded-full bg-forest-dark/80 hover:bg-forest text-ivory border border-gold/40 hover:border-gold font-semibold text-xs tracking-wider uppercase transition-all duration-200 text-center"
-                >
-                  Ordering Instructions & Help
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
       </section>
+
+      {/* 4. Resort Dining Story & Highlights (About Section) */}
+      <AboutSection onOpenCallModal={handleOpenGeneralCall} />
 
       {/* 5. Contact & Operating Hours Section (id="contact") */}
       <DiningInfoSection onOpenCallModal={handleOpenGeneralCall} />
@@ -264,6 +273,8 @@ export default function App() {
       <MenuItemModal
         item={selectedItem}
         onClose={() => setSelectedItem(null)}
+        isShortlisted={selectedItem ? Boolean(shortlist[selectedItem.id]) : false}
+        onToggleShortlist={handleToggleShortlist}
       />
 
       {/* Dedicated Call to Order Modal */}
@@ -273,8 +284,26 @@ export default function App() {
         selectedItem={modalCallingItem}
       />
 
-      {/* Persistent Floating Call Button */}
-      <FloatingCallButton onOpenCallModal={handleOpenGeneralCall} />
+      {/* Table Order Pad / Shortlist Drawer */}
+      <OrderPadModal
+        isOpen={isOrderPadOpen}
+        onClose={() => setIsOrderPadOpen(false)}
+        shortlist={shortlist}
+        onUpdateQuantity={handleUpdateQuantity}
+        onClear={handleClearShortlist}
+        onOpenCallModal={handleOpenGeneralCall}
+      />
+
+      {/* Persistent Floating Call & Order Pad Bar */}
+      <FloatingCallButton
+        onOpenCallModal={handleOpenGeneralCall}
+        shortlistCount={totalShortlistCount}
+        shortlistTotal={totalEstimatedPrice}
+        onOpenOrderPad={() => setIsOrderPadOpen(true)}
+      />
+
+      {/* Floating Back to Top Button */}
+      <BackToTopButton />
     </div>
   );
 }

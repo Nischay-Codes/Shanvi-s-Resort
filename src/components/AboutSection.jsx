@@ -28,47 +28,46 @@ export default function AboutSection({ onOpenCallModal }) {
           </p>
         </div>
 
-        {/* 3 Pillars / Dining Highlights with Photography */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 sm:gap-10 mb-16">
-          {resortInfo.diningHighlights.map((highlight, index) => (
-            <div
-              key={highlight.title}
-              className="group bg-white rounded-3xl overflow-hidden border border-forest/10 hover:border-gold/50 shadow-luxury hover:shadow-luxury-lg transition-all duration-300 flex flex-col justify-between transform hover:-translate-y-1.5"
-            >
-              <div>
-                {/* Visual Thumbnail */}
-                <div className="relative aspect-[16/10] overflow-hidden bg-forest-dark">
-                  <img
-                    src={highlight.image}
-                    alt={highlight.title}
-                    className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-700 ease-out"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-forest-dark/80 via-transparent to-transparent opacity-60" />
-                  <span className="absolute bottom-3 left-4 text-xs uppercase tracking-widest text-gold font-bold">
-                    Pillar 0{index + 1}
-                  </span>
-                </div>
+        {/* 3 Pillars / Dining Highlights (Clean, Icon-Based, No Photos) */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 sm:gap-8 mb-16">
+          {resortInfo.diningHighlights.map((highlight, index) => {
+            const IconComponent =
+              index === 0 ? Flame : index === 1 ? Utensils : Sparkles;
 
-                {/* Content */}
-                <div className="p-6 sm:p-7 space-y-3">
-                  <h3 className="font-serif text-xl sm:text-2xl font-bold text-forest group-hover:text-gold transition-colors">
+            return (
+              <div
+                key={highlight.title}
+                className="group bg-white rounded-3xl p-6 sm:p-8 border border-forest/10 hover:border-gold/50 shadow-luxury hover:shadow-luxury-lg transition-all duration-300 flex flex-col justify-between transform hover:-translate-y-1"
+              >
+                <div className="space-y-4">
+                  <div className="flex items-center justify-between">
+                    <div className="w-12 h-12 rounded-2xl bg-forest text-gold border border-gold/30 flex items-center justify-center group-hover:scale-105 transition-transform shadow-sm">
+                      <IconComponent size={22} className="text-gold" />
+                    </div>
+                    <span className="text-xs uppercase tracking-widest text-gold font-bold bg-forest/5 px-2.5 py-1 rounded-full">
+                      Pillar 0{index + 1}
+                    </span>
+                  </div>
+
+                  <h3 className="font-serif text-xl sm:text-2xl font-bold text-forest group-hover:text-gold transition-colors pt-1">
                     {highlight.title}
                   </h3>
+
                   <p className="text-sm text-walnut/80 leading-relaxed font-light">
                     {highlight.desc}
                   </p>
                 </div>
-              </div>
 
-              {/* Card Footer Micro-detail */}
-              <div className="px-6 pb-6 pt-0">
-                <div className="pt-4 border-t border-forest/5 flex items-center justify-between text-xs text-forest font-semibold">
-                  <span>Prepared Fresh to Order</span>
+                <div className="pt-6 mt-6 border-t border-forest/5 flex items-center justify-between text-xs text-forest font-semibold">
+                  <span className="flex items-center gap-1.5">
+                    <Clock size={13} className="text-gold" />
+                    <span>Prepared Fresh to Order</span>
+                  </span>
                   <span className="text-gold">~20-30 mins</span>
                 </div>
               </div>
-            </div>
-          ))}
+            );
+          })}
         </div>
 
         {/* Feature Story Banner / Chef's Philosophy Box */}
@@ -99,13 +98,13 @@ export default function AboutSection({ onOpenCallModal }) {
               >
                 Browse Our Menu
               </a>
-              <button
-                onClick={onOpenCallModal}
-                className="px-6 py-3.5 rounded-full bg-forest-dark hover:bg-forest-light text-ivory border border-gold/40 text-xs font-semibold uppercase tracking-wider text-center flex items-center justify-center gap-2 transition-all duration-200"
+              <a
+                href={`tel:${resortInfo.phone.tel}`}
+                className="px-6 py-3.5 rounded-full bg-forest-dark hover:bg-forest-light text-ivory border border-gold/40 text-xs font-semibold uppercase tracking-wider text-center flex items-center justify-center gap-2 transition-all duration-200 active:scale-95"
               >
                 <Phone size={14} className="text-gold" />
-                <span>Call Ext. {resortInfo.phone.inVillaExt}</span>
-              </button>
+                <span>Call Culinary Desk</span>
+              </a>
             </div>
           </div>
         </div>

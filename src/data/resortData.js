@@ -13,7 +13,8 @@ export const resortInfo = {
     inVillaExt: "Ext. 101 / 102",
     whatsapp: "+919425288888"
   },
-  location: "Chitrakote Road, Jagdalpur, Bastar, Chhattisgarh",
+  location: "Khasra No. 1548/2, Jamguda, Kurandi Road, Kurandi, Bastar, Jagdalpur, Chhattisgarh 494001",
+  address: "Khasra No. 1548/2, Jamguda, Kurandi Road, Kurandi, Bastar, Jagdalpur, Chhattisgarh 494001",
   currency: "₹",
   serviceHours: [
     { label: "Morning Breakfast & Chai", time: "07:30 AM – 11:00 AM" },
@@ -24,18 +25,15 @@ export const resortInfo = {
   diningHighlights: [
     {
       title: "Charcoal Clay Tandoor",
-      desc: "Slow-roasted kebabs, smoky tikkas, and crisp golden garlic naans baked in traditional clay ovens.",
-      image: "https://images.unsplash.com/photo-1599488615731-7e5c2823ff28?q=80&w=800&auto=format&fit=crop"
+      desc: "Slow-roasted kebabs, smoky tikkas, and crisp golden garlic naans baked in traditional clay ovens."
     },
     {
       title: "Royal Heritage Gravies",
-      desc: "Simmered for hours with hand-ground spices: Paneer Butter Masala, Mutton Rogan Josh & 1 KG Desi Chicken.",
-      image: "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?q=80&w=800&auto=format&fit=crop"
+      desc: "Simmered for hours with hand-ground spices: Paneer Butter Masala, Mutton Rogan Josh & 1 KG Desi Chicken."
     },
     {
-      title: "Garden Verandah & In-Room Comfort",
-      desc: "Piping-hot meals delivered directly to your resort room, private cottage, or outdoor lawn table.",
-      image: "https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=800&auto=format&fit=crop"
+      title: "In-Room & Dining Table Service",
+      desc: "Piping-hot meals served directly at your dining table or delivered in-room to your private cottage."
     }
   ],
   orderingSteps: [

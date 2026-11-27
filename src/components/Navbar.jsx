@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { Phone, Clock, Menu, X, Utensils, Info, MapPin, Sparkles, Home } from 'lucide-react';
+import { Phone, Menu, X, Utensils, Info, MapPin, Home, QrCode } from 'lucide-react';
 import { resortInfo } from '../data/resortData';
 
 export default function Navbar({ onOpenCallModal }) {
@@ -24,24 +24,25 @@ export default function Navbar({ onOpenCallModal }) {
 
   return (
     <header className="sticky top-0 z-50 transition-all duration-300">
-      {/* Top micro-bar for live hours and room extension */}
-      <div className="bg-forest-dark text-xs py-2 px-4 sm:px-8 border-b border-forest-light/30 flex justify-between items-center text-ivory/80">
+      {/* Top micro-bar for live hours, extension, and QR Menu */}
+      <div className="bg-forest-dark text-xs py-2 px-3 sm:px-8 border-b border-forest-light/30 flex justify-between items-center text-ivory/80">
         <div className="flex items-center gap-2">
           <span className="inline-block w-2 h-2 rounded-full bg-emerald-400 animate-pulse" />
           <span className="font-medium tracking-wide">Kitchen Open Now</span>
           <span className="hidden sm:inline text-gold/60">•</span>
-          <span className="hidden sm:inline text-gold font-medium">In-Room & Garden Dining</span>
+          <span className="hidden sm:inline text-gold font-medium">In-Room & Dining Table</span>
         </div>
-        <div className="flex items-center gap-4">
+        <div className="flex items-center gap-2.5 sm:gap-4">
           <span className="hidden md:inline text-ivory/70">
-            Room Phone: <strong className="text-gold font-semibold">{resortInfo.phone.inVillaExt}</strong>
+            Room: <strong className="text-gold font-semibold">{resortInfo.phone.inVillaExt}</strong>
           </span>
           <a
             href={`tel:${resortInfo.phone.tel}`}
-            className="flex items-center gap-1.5 text-gold hover:text-ivory transition-colors"
+            className="flex items-center gap-1 text-gold hover:text-ivory transition-colors active:scale-95"
+            title="Dial direct line"
           >
-            <Phone size={12} className="text-gold" />
-            <span className="font-semibold tracking-wider">{resortInfo.phone.display}</span>
+            <Phone size={11} className="text-gold" />
+            <span className="font-semibold tracking-wider text-xs">{resortInfo.phone.display}</span>
           </a>
         </div>
       </div>
@@ -102,16 +103,17 @@ export default function Navbar({ onOpenCallModal }) {
 
           {/* Desktop Call to Order CTA */}
           <div className="hidden sm:flex items-center gap-3">
-            <button
-              onClick={onOpenCallModal}
-              className="relative px-5 py-2.5 rounded-full bg-gold hover:bg-gold-light text-forest-dark font-bold text-xs tracking-wider uppercase transition-all duration-300 shadow-gold-glow hover:shadow-lg hover:-translate-y-0.5 flex items-center gap-2 group"
+            <a
+              href={`tel:${resortInfo.phone.tel}`}
+              className="relative px-5 py-2.5 rounded-full bg-gold hover:bg-gold-light text-forest-dark font-bold text-xs tracking-wider uppercase transition-all duration-300 shadow-gold-glow hover:shadow-lg hover:-translate-y-0.5 flex items-center gap-2 group active:scale-95"
+              aria-label={`Call resort at ${resortInfo.phone.display}`}
             >
               <Phone size={13} className="group-hover:rotate-12 transition-transform duration-300" />
               <span>Call to Order</span>
               <span className="bg-forest-dark/20 text-forest-dark px-1.5 py-0.5 rounded text-[10px] font-bold">
                 {resortInfo.phone.inVillaExt}
               </span>
-            </button>
+            </a>
           </div>
 
           {/* Mobile Hamburger Button */}
@@ -160,16 +162,14 @@ export default function Navbar({ onOpenCallModal }) {
           </div>
 
           <div className="pt-4 border-t border-white/10">
-            <button
-              onClick={() => {
-                setMobileMenuOpen(false);
-                onOpenCallModal();
-              }}
-              className="w-full py-3.5 rounded-full bg-gold text-forest-dark font-bold text-sm text-center flex items-center justify-center gap-2 shadow-gold-glow"
+            <a
+              href={`tel:${resortInfo.phone.tel}`}
+              onClick={() => setMobileMenuOpen(false)}
+              className="w-full py-3.5 rounded-full bg-gold text-forest-dark font-bold text-sm text-center flex items-center justify-center gap-2 shadow-gold-glow active:scale-95 transition-transform"
             >
               <Phone size={16} />
               <span>Call Room Service ({resortInfo.phone.inVillaExt})</span>
-            </button>
+            </a>
           </div>
         </div>
       )}
